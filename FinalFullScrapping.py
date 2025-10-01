@@ -1,0 +1,258 @@
+
+
+import requests
+from bs4 import BeautifulSoup
+import json
+from datetime import datetime
+import time
+import csv
+import re
+from urllib.parse import urljoin
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
+
+class UnifiedSchemeScraper:
+    def __init__(self):
+        self.base_url = "https://www.myscheme.gov.in"
+        self.search_url = "https://www.myscheme.gov.in/search"
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Connection': 'keep-alive',
+        }
+    
+    def setup_driver(self):
+        """Setup Chrome driver with optimal options"""
+        options = Options()
+        options.add_argument("--headless=new")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument(f"user-agent={self.headers['User-Agent']}")
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+        
+        return webdriver.Chrome(options=options)
+    
+    def scrape_all_scheme_urls(self, max_pages=None):
+        """Phase 1: Scrape all scheme URLs from search pages"""
+        driver = self.setup_driver()
+        
+        try:
+            print("=" * 70)
+            print("PHASE 1: COLLECTING ALL SCHEME URLs")
+            print("=" * 70)
+            print(f"\n🔍 Loading {self.search_url}...\n")
+            
+            driver.get(self.search_url)
+            wait = WebDriverWait(driver, 20)
+            time.sleep(5)
+            
+            try:
+                wait.until(EC.presence_of_element_located((By.XPATH, "//h2[contains(@id, 'scheme-name')]")))
+                print("✅ Search page loaded successfully!\n")
+            except TimeoutException:
+                print("⏳ Extended wait for page load...")
+                time.sleep(5)
+            
+            all_urls = []
+            seen_urls = set()
+            current_page = 1
+            max_attempts_no_schemes = 3
+            consecutive_no_schemes = 0
+            
+            while True:
+                if max_pages and current_page > max_pages:
+                    print(f"\n⚠️ Reached maximum page limit: {max_pages}")
+                    break
+                
+                print(f"{'='*70}")
+                print(f"📄 Scraping Page {current_page}")
+                print(f"{'='*70}")
+                
+                time.sleep(4)
+                
+                # Scroll to load content
+                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(2)
+                driver.execute_script("window.scrollTo(0, 0);")
+                time.sleep(1)
+                
+                # Parse current page
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                h2_tags = soup.find_all("h2", id=re.compile(r"^scheme-name-\d+$"))
+                
+                page_schemes = 0
+                for h2 in h2_tags:
+                    a = h2.find("a", href=True)
+                    if a:
+                        scheme_url = urljoin(self.base_url, a["href"])
+                        scheme_name = a.get_text(strip=True)
+                        
+                        if scheme_url not in seen_urls:
+                            all_urls.append({
+                                'name': scheme_name,
+                                'url': scheme_url
+                            })
+                            seen_urls.add(scheme_url)
+                            page_schemes += 1
+                
+                if page_schemes == 0:
+                    consecutive_no_schemes += 1
+                    print(f"⚠️ No schemes found on page {current_page} (attempt {consecutive_no_schemes}/{max_attempts_no_schemes})")
+                    
+                    if consecutive_no_schemes >= max_attempts_no_schemes:
+                        print(f"❌ No schemes found after {max_attempts_no_schemes} consecutive pages. Stopping.")
+                        break
+                else:
+                    consecutive_no_schemes = 0
+                    print(f"✅ Found {page_schemes} schemes on page {current_page}")
+                    print(f"📊 Total schemes collected: {len(all_urls)}\n")
+                
+                # Navigate to next page
+                if not self._go_to_next_page(driver, current_page):
+                    print(f"\n⚡ No more pages found - finished at page {current_page}")
+                    break
+                
+                current_page += 1
+                
+                if current_page > 500:
+                    print(f"⚠️ Reached safety limit of 500 pages")
+                    break
+            
+            print(f"\n{'='*70}")
+            print(f"✅ Phase 1 completed! Collected {len(all_urls)} scheme URLs")
+            print(f"{'='*70}\n")
+            
+            return all_urls
+        
+        except Exception as e:
+            print(f"\n❌ Error during URL collection: {str(e)}")
+            import traceback
+            traceback.print_exc()
+            return []
+        
+        finally:
+            driver.quit()
+    
+    def _go_to_next_page(self, driver, current_page):
+        """Navigate to the next page in pagination"""
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
+        
+        # Strategy 1: Find and click next page number
+        try:
+            page_buttons = driver.find_elements(
+                By.XPATH,
+                "//ul[contains(@class, 'list-none')]//li[contains(@class, 'h-8 w-8')]"
+            )
+            
+            for btn in page_buttons:
+                try:
+                    btn_text = btn.text.strip()
+                    if not btn_text or not btn_text.isdigit():
+                        continue
+                    
+                    btn_page_num = int(btn_text)
+                    
+                    if btn_page_num == current_page + 1:
+                        btn_classes = btn.get_attribute("class") or ""
+                        
+                        if "bg-green-700" not in btn_classes:
+                            driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", btn)
+                            time.sleep(1)
+                            
+                            try:
+                                btn.click()
+                            except:
+                                driver.execute_script("arguments[0].click();", btn)
+                            
+                            print(f"🔄 Clicked page number {btn_page_num}")
+                            time.sleep(5)
+                            return True
+                except (StaleElementReferenceException, ValueError):
+                    continue
+                except Exception:
+                    continue
+        except Exception:
+            pass
+        
+        # Strategy 2: Look for next arrow
+        try:
+            next_selectors = [
+                "//li[contains(@class, 'h-8 w-8')]//svg[contains(@class, 'ml-2')]",
+                "//li[last()]//svg",
+            ]
+            
+            for selector in next_selectors:
+                try:
+                    elements = driver.find_elements(By.XPATH, selector)
+                    
+                    for elem in elements:
+                        if elem.is_displayed():
+                            parent = elem.find_element(By.XPATH, "./ancestor::li[1]")
+                            parent_classes = parent.get_attribute("class") or ""
+                            
+                            if "bg-green-700" in parent_classes:
+                                continue
+                            
+                            driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", parent)
+                            time.sleep(1)
+                            driver.execute_script("arguments[0].click();", parent)
+                            print(f"🔄 Clicked next arrow → Page {current_page + 1}")
+                            time.sleep(5)
+                            return True
+                except:
+                    continue
+        except:
+            pass
+        
+        return False
+    
+    def scrape_scheme_details(self, scheme_url):
+        """Phase 2: Scrape detailed information from a scheme page"""
+        driver = self.setup_driver()
+        
+        try:
+            driver.get(scheme_url)
+            
+            wait = WebDriverWait(driver, 15)
+            wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+            time.sleep(3)
+            
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            
+            data = {
+                'scheme_name': self.extract_scheme_name(soup),
+                'scheme_details': self.extract_scheme_details(soup),
+                'eligibility': self.extract_section_by_keyword(soup, ['eligibility', 'eligible', 'who can apply', 'beneficiary']),
+                'benefits': self.extract_section_by_keyword(soup, ['benefit', 'benefits', 'assistance', 'financial support', 'amount']),
+                'application_process': self.extract_section_by_keyword(soup, ['application', 'how to apply', 'process', 'procedure', 'registration', 'apply']),
+                'documents_required': self.extract_section_by_keyword(soup, ['document', 'documents required', 'papers', 'required documents']),
+                'contact_info': self.extract_contact_info(soup),
+                'all_sections': self.extract_all_sections(soup),
+                'metadata': {
+                    'scraped_at': datetime.now().isoformat(),
+                    'source_url': scheme_url
+                }
+            }
+            
+            return data
+        
+        except Exception as e:
+            return {
+                'error': str(e),
+                'metadata': {
+                    'scraped_at': datetime.now().isoformat(),
+                    'source_url': scheme_url
+                }
+            }
+        
+        finally:
+            driver.quit()
+    

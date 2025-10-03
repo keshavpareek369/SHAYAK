@@ -255,4 +255,186 @@ class UnifiedSchemeScraper:
         
         finally:
             driver.quit()
+
+    def extract_scheme_name(self, soup):
+        """Extract scheme name"""
+        selectors = [
+            ('h1', {}),
+            ('h2', {}),
+            ('.scheme-title', {}),
+            ('.heading', {}),
+            ('title', {})
+        ]
+        
+        for tag, attrs in selectors:
+            element = soup.find(tag, attrs)
+            if element:
+                text = element.get_text(strip=True)
+                if text and len(text) > 3:
+                    return text
+        
+        return "Unknown Scheme"
     
+    def extract_all_sections(self, soup):
+        """Extract all content sections"""
+        sections = {}
+        headings = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])
+        
+        for heading in headings:
+            title = heading.get_text(strip=True)
+            if not title or len(title) < 3:
+                continue
+            
+            content = []
+            
+            for sibling in heading.find_next_siblings():
+                if sibling.name in ['h1', 'h2', 'h3', 'h4', 'h5']:
+                    break
+                
+                text = sibling.get_text(strip=True)
+                if text and len(text) > 10:
+                    content.append(text)
+                
+                lists = sibling.find_all('li')
+                for li in lists:
+                    li_text = li.get_text(strip=True)
+                    if li_text and len(li_text) > 5:
+                        content.append(li_text)
+            
+            if content:
+                sections[title] = content
+        
+        return sections
+    
+    def extract_scheme_details(self, soup):
+        """Extract general scheme details"""
+        details = {}
+        
+        meta_desc = soup.find('meta', {'name': 'description'})
+        if meta_desc and meta_desc.get('content'):
+            details['meta_description'] = meta_desc['content']
+        
+        content_selectors = [
+            {'class_': lambda x: x and any(word in str(x).lower() for word in ['content', 'description', 'about', 'overview'])},
+        ]
+        
+        for selector in content_selectors:
+            divs = soup.find_all('div', selector)
+            for div in divs:
+                text = div.get_text(strip=True)
+                if 100 < len(text) < 5000:
+                    details['description'] = text
+                    break
+            if 'description' in details:
+                break
+        
+        if 'description' not in details:
+            paragraphs = soup.find_all('p')
+            combined = ' '.join([p.get_text(strip=True) for p in paragraphs[:5]])
+            if len(combined) > 50:
+                details['description'] = combined
+        
+        tables = soup.find_all('table')
+        for idx, table in enumerate(tables):
+            rows = table.find_all('tr')
+            table_data = []
+            for row in rows:
+                cells = row.find_all(['td', 'th'])
+                if len(cells) >= 2:
+                    row_data = [cell.get_text(strip=True) for cell in cells]
+                    table_data.append(row_data)
+            if table_data:
+                details[f'table_{idx+1}'] = table_data
+        
+        return details
+    
+    def extract_section_by_keyword(self, soup, keywords):
+        """Extract sections by keywords"""
+        results = []
+        
+        for keyword in keywords:
+            headings = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'b'])
+            
+            for heading in headings:
+                heading_text = heading.get_text(strip=True).lower()
+                if keyword.lower() in heading_text:
+                    parent = heading.find_parent(['div', 'section', 'article'])
+                    if parent:
+                        items = parent.find_all('li')
+                        if items:
+                            results.extend([item.get_text(strip=True) for item in items if item.get_text(strip=True)])
+                        
+                        if not results:
+                            paras = parent.find_all('p')
+                            results.extend([p.get_text(strip=True) for p in paras if len(p.get_text(strip=True)) > 10])
+                    
+                    if results:
+                        break
+            
+            if results:
+                break
+        
+        return results
+    
+    def extract_contact_info(self, soup):
+        """Extract contact information"""
+        contact = {}
+        page_text = soup.get_text()
+        
+        emails = re.findall(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', page_text)
+        if emails:
+            contact['emails'] = list(set(emails))
+        
+        phones = re.findall(r'(?:\+91|91)?[-.\s]?\d{10}|\d{3}[-.\s]?\d{3}[-.\s]?\d{4}', page_text)
+        if phones:
+            contact['phones'] = list(set(phones))
+        
+        urls = re.findall(r'https?://[^\s<>"{}|\\^`\[\]]+', page_text)
+        if urls:
+            contact['websites'] = list(set([url for url in urls if 'myscheme' not in url]))[:5]
+        
+        return contact
+    
+    def format_for_ai_agent(self, data):
+        """Format data for AI agent consumption"""
+        if 'error' in data:
+            return data
+        
+        sections = data.get('all_sections', {})
+        
+        return {
+            'knowledge_base_entry': {
+                'scheme': data.get('scheme_name', 'Unknown Scheme'),
+                'summary': data.get('scheme_details', {}).get('description', 
+                                   data.get('scheme_details', {}).get('meta_description', '')),
+                'key_information': {
+                    'eligibility_criteria': data.get('eligibility', []),
+                    'benefits': data.get('benefits', []),
+                    'required_documents': data.get('documents_required', []),
+                    'application_steps': data.get('application_process', [])
+                },
+                'additional_details': data.get('scheme_details', {}),
+                'all_extracted_sections': sections,
+                'contact': data.get('contact_info', {}),
+                'last_updated': data.get('metadata', {}).get('scraped_at'),
+                'source': data.get('metadata', {}).get('source_url')
+            }
+        }
+    
+    def run_complete_scrape(self, max_pages=None, max_schemes=None, save_intermediate=True):
+        """Run complete scraping process: URLs first, then details"""
+        
+        print("=" * 70)
+        print("🚀 UNIFIED MYSCHEME SCRAPER")
+        print("=" * 70)
+        print(f"Start Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        
+        # Phase 1: Collect all URLs
+        scheme_urls = self.scrape_all_scheme_urls(max_pages=max_pages)
+        
+        if not scheme_urls:
+            print("❌ No schemes found. Exiting.")
+            return
+        
+        # Save URLs in multiple formats
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

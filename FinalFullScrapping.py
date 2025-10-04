@@ -255,7 +255,7 @@ class UnifiedSchemeScraper:
         
         finally:
             driver.quit()
-
+    
     def extract_scheme_name(self, soup):
         """Extract scheme name"""
         selectors = [
@@ -438,3 +438,159 @@ class UnifiedSchemeScraper:
         
         # Save URLs in multiple formats
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+        # Save as CSV
+        csv_filename = f"scheme_urls_{timestamp}.csv"
+        with open(csv_filename, "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Index", "Scheme Name", "Scheme URL"])
+            for idx, scheme in enumerate(scheme_urls, 1):
+                writer.writerow([idx, scheme['name'], scheme['url']])
+        
+        # Save as JSON
+        json_filename = f"scheme_urls_{timestamp}.json"
+        with open(json_filename, 'w', encoding='utf-8') as f:
+            json.dump(scheme_urls, f, indent=2, ensure_ascii=False)
+        
+        print(f"💾 Saved {len(scheme_urls)} URLs to:")
+        print(f"   - {csv_filename}")
+        print(f"   - {json_filename}\n")
+        
+        # Limit schemes if specified
+        if max_schemes:
+            scheme_urls = scheme_urls[:max_schemes]
+            print(f"⚠️ Limited to first {max_schemes} schemes\n")
+        
+        # Phase 2: Scrape details for each scheme
+        print("=" * 70)
+        print("PHASE 2: SCRAPING DETAILED INFORMATION")
+        print("=" * 70)
+        
+        all_schemes_data = []
+        failed_schemes = []
+        
+        for idx, scheme_info in enumerate(scheme_urls, 1):
+            print(f"\n[{idx}/{len(scheme_urls)}] Scraping: {scheme_info['name'][:60]}...")
+            
+            try:
+                scheme_data = self.scrape_scheme_details(scheme_info['url'])
+                
+                if 'error' not in scheme_data:
+                    ai_formatted = self.format_for_ai_agent(scheme_data)
+                    all_schemes_data.append(ai_formatted)
+                    print(f"    ✅ Success")
+                else:
+                    failed_schemes.append({
+                        'name': scheme_info['name'],
+                        'url': scheme_info['url'],
+                        'error': scheme_data.get('error', 'Unknown error')
+                    })
+                    print(f"    ❌ Failed: {scheme_data.get('error', 'Unknown error')}")
+                
+                # Save intermediate results every 10 schemes
+                if save_intermediate and idx % 10 == 0:
+                    backup_filename = f"schemes_backup_{timestamp}_{idx}.json"
+                    with open(backup_filename, 'w', encoding='utf-8') as f:
+                        json.dump(all_schemes_data, f, indent=2, ensure_ascii=False)
+                    print(f"    💾 Backup saved: {backup_filename}")
+                
+                time.sleep(2)  # Respectful delay
+                
+            except Exception as e:
+                print(f"    ❌ Unexpected error: {str(e)}")
+                failed_schemes.append({
+                    'name': scheme_info['name'],
+                    'url': scheme_info['url'],
+                    'error': str(e)
+                })
+        
+        # Final save with timestamp
+        print("\n" + "=" * 70)
+        print("💾 SAVING FINAL RESULTS")
+        print("=" * 70)
+        
+        # Save complete schemes data in multiple formats
+        complete_json = f"all_schemes_complete_{timestamp}.json"
+        with open(complete_json, 'w', encoding='utf-8') as f:
+            json.dump(all_schemes_data, f, indent=2, ensure_ascii=False)
+        print(f"✅ Saved {len(all_schemes_data)} complete schemes to {complete_json}")
+        
+        # Save raw data (non-AI formatted) for reference
+        raw_json = f"all_schemes_raw_{timestamp}.json"
+        with open(raw_json, 'w', encoding='utf-8') as f:
+            json.dump({
+                'total_schemes': len(scheme_urls),
+                'successfully_scraped': len(all_schemes_data),
+                'failed': len(failed_schemes),
+                'scraping_date': datetime.now().isoformat(),
+                'schemes': all_schemes_data
+            }, f, indent=2, ensure_ascii=False)
+        print(f"✅ Saved complete data with metadata to {raw_json}")
+        
+        # Save as CSV summary
+        summary_csv = f"schemes_summary_{timestamp}.csv"
+        with open(summary_csv, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                "Scheme Name", 
+                "Eligibility Count", 
+                "Benefits Count", 
+                "Documents Count",
+                "Application Steps Count",
+                "Has Contact Info",
+                "Source URL"
+            ])
+            for scheme in all_schemes_data:
+                kb = scheme.get('knowledge_base_entry', {})
+                ki = kb.get('key_information', {})
+                writer.writerow([
+                    kb.get('scheme', 'Unknown'),
+                    len(ki.get('eligibility_criteria', [])),
+                    len(ki.get('benefits', [])),
+                    len(ki.get('required_documents', [])),
+                    len(ki.get('application_steps', [])),
+                    'Yes' if kb.get('contact', {}) else 'No',
+                    kb.get('source', '')
+                ])
+        print(f"✅ Saved summary to {summary_csv}")
+        
+        if failed_schemes:
+            failed_json = f"failed_schemes_{timestamp}.json"
+            with open(failed_json, 'w', encoding='utf-8') as f:
+                json.dump(failed_schemes, f, indent=2, ensure_ascii=False)
+            print(f"⚠️  Saved {len(failed_schemes)} failed schemes to {failed_json}")
+            
+            # Save failed schemes as CSV too
+            failed_csv = f"failed_schemes_{timestamp}.csv"
+            with open(failed_csv, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow(["Scheme Name", "URL", "Error"])
+                for failed in failed_schemes:
+                    writer.writerow([failed['name'], failed['url'], failed['error']])
+            print(f"⚠️  Saved failed schemes to {failed_csv}")
+        
+        # Summary
+        print("\n" + "=" * 70)
+        print("📊 SCRAPING SUMMARY")
+        print("=" * 70)
+        print(f"Total schemes found: {len(scheme_urls)}")
+        print(f"Successfully scraped: {len(all_schemes_data)}")
+        print(f"Failed: {len(failed_schemes)}")
+        print(f"Success rate: {len(all_schemes_data)/len(scheme_urls)*100:.1f}%")
+        print(f"End Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print("=" * 70)
+
+
+if __name__ == "__main__":
+    scraper = UnifiedSchemeScraper()
+    
+    # Configuration
+    MAX_PAGES = None  # Set to None for all pages, or a number like 5 for testing
+    MAX_SCHEMES = None  # Set to None for all schemes, or a number like 10 for testing
+    
+    # Run complete scraping process
+    scraper.run_complete_scrape(
+        max_pages=MAX_PAGES,
+        max_schemes=MAX_SCHEMES,
+        save_intermediate=True
+    )

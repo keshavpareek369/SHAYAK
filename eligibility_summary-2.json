@@ -1,0 +1,3399 @@
+[
+  {
+    "scheme_name": "Prime Minister’s Fellowship for Doctoral Research",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Course": "PhD",
+      "Registration": "Within 14 months",
+      "Industry": "Required",
+      "Research": "Innovative",
+      "Employment": "Part-time allowed",
+      "Fellowship": "Exclusive"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sector Scheme of Scholarship for College and University students",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Percentile": "80th",
+      "Course": "Regular degree",
+      "Institution": "AICTE recognized",
+      "Income_Limit": "₹4.5 lakh",
+      "Renewal_Marks": "50%",
+      "Attendance": "75%",
+      "Bank_Account": "Aadhaar seeded"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Scheme For Farmers.",
+    "eligibility": {
+      "Eligible": "Individual farmer",
+      "Alternative": "Group of farmers",
+      "Organization": "FPO",
+      "Governance": "Panchayat",
+      "Business": "Co-operatives",
+      "Association": "Water User Associations"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana - Short Term Training",
+    "eligibility": {
+      "Age": "15-45 years",
+      "Aadhaar": "Required",
+      "BankAccount": "Aadhaar linked",
+      "JobRole": "As defined by awarding body"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Kisan Samman Nidhi",
+    "eligibility": {
+      "Eligibility": "Landholding farmers",
+      "Occupation": "Farming",
+      "Land": "Cultivable"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana - Special Projects",
+    "eligibility": {
+      "Reason": "Special circumstances"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Mudra Yojana",
+    "eligibility": {
+      "Entity": "Individuals, Proprietorship, Partnership, Companies"
+    }
+  },
+  {
+    "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana",
+    "eligibility": {
+      "Housing": "Kucha",
+      "Adults": "None 16-59",
+      "Male": "No 16-59",
+      "Disability": "Disabled only",
+      "Caste": "SC/ST",
+      "Land": "Landless",
+      "Occupation": [
+        "Ragpicker",
+        "Beggar",
+        "Domestic worker",
+        "Street vendor",
+        "Construction worker",
+        "Sweeper",
+        "Home-based worker",
+        "Transport worker",
+        "Shop worker",
+        "Electrician",
+        "Washer-man",
+        "Chowkidar"
+      ]
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Suraksha Bima Yojana",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Age": "18-70",
+      "Account": "Individual",
+      "Consent": "Required"
+    }
+  },
+  {
+    "scheme_name": "Prime Minister's Employment Generation Programme",
+    "eligibility": {
+      "Age": "Above 18",
+      "Income": "No limit",
+      "Education": "VIII standard",
+      "Project": "New",
+      "Sector": "Manufacturing/Business",
+      "Cost": "Above ₹10/5 lakh",
+      "Subsidy": "Adjustable",
+      "LockIn": "3 years",
+      "Loan": "Successfully repaid",
+      "Unit": "Profit-making"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Adarsh Gram Yojana",
+    "eligibility": {
+      "Population": "≥500",
+      "SC_Percentage": "≥50%",
+      "Census": "Recognized",
+      "Reselection": "Not allowed"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi (PM-DAKSH)",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Age": "18-45 years",
+      "Groups": [
+        "SC",
+        "OBC",
+        "EWS",
+        "DNT",
+        "Safai Mitras"
+      ],
+      "Income_Limit_OBC_EWS": "₹3,00,000",
+      "Income_Limit_SC_DNT_Safai": "No limit",
+      "Aadhaar": "Required",
+      "Bank_Account": "Aadhaar-linked",
+      "Registration": "SIDH",
+      "Attendance": "70% biometric"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana: Medium Scale Ornamental Fish Rearing Unit (Fresh Water) - Haryana",
+    "eligibility": {
+      "Residence": "Haryana",
+      "ID": "Parivar Pehchan Patra",
+      "Land": "150 sqm",
+      "Water": "Adequate supply",
+      "Land_Ownership": "Own or 7-year lease"
+    }
+  },
+  {
+    "scheme_name": "Prime Minister’s Internship Scheme",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Age": "21-24",
+      "Employment": "Not full-time",
+      "Education": "Not full-time",
+      "Online_Education": "Eligible",
+      "Qualification": "High School onwards",
+      "Income_Limit": "₹8,00,000"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana: Three Wheeler with Ice Box Including E-rickshaws for Fish Vending - Haryana",
+    "eligibility": {
+      "Residence": "Haryana",
+      "ID": "Parivar Pehchan Patra",
+      "Maintenance": "Working condition",
+      "Purchase_Limit": "One",
+      "Liability": "No government responsibility"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Uchchatar Shiksha Protsahan Yojana - Special Scholarship Scheme for Jammu & Kashmir and Ladakh",
+    "eligibility": {
+      "Domicile": "J&K and Ladakh",
+      "Education": "12th from JKBOSE/CBSE",
+      "Income": "₹8,00,000",
+      "Lateral_Entry": "Diploma in Engineering",
+      "Application": "Online on AICTE web-portal",
+      "Admission": "Subject to seat allocation"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Uchchatar Shiksha Protsahan Yojana: Central Sector Interest Subsidy Scheme",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Income_Limit": "₹5 lakh",
+      "Course": "Regular degree"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Ujjwala Yojana",
+    "eligibility": {
+      "List": "SECC 2011",
+      "Household": "SC/ST/PMAY/AAY",
+      "Alternates": "Forest dwellers, MBC, Tea/Ex-Tea Tribes, River islands",
+      "Declaration": "14-point for poor households"
+    }
+  },
+  {
+    "scheme_name": "PM POSHAN - Prime Minister's Overarching Scheme For Holistic Nourishment",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Class": "1st-8th",
+      "School": "Government/Government-aided"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+    "eligibility": {
+      "Norms": "0",
+      "Category": "Any"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Krishi Sinchayee Yojana: Per Drop More Crop",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Beneficiaries": "All farmers",
+      "Land_Limit": "5 hectares"
+    }
+  },
+  {
+    "scheme_name": "Prime Minister's Scholarship Scheme for Railway Protection Force",
+    "eligibility": {
+      "Eligible": "RPF/RPSF dependents",
+      "Admission": "Regular",
+      "Percentage": "60% and above",
+      "Family_Limit": "2 wards",
+      "Institute": "AISHE regulated",
+      "Study_Location": "India",
+      "Course_Type": "Regular",
+      "Course_Limit": "1 course"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Kisan Samridhi Sah-yojana (PM-MKSSY): COMPONENT 1A: Formalization of Fisheries Sector and Facilitating Access of Fisheries Microenterprises to Government of India Programs for Working Capital Financing",
+    "eligibility": {
+      "Entity": "Fisheries Microenterprise",
+      "Registration": "NFDP",
+      "BankAccount": "Aadhaar Linked",
+      "Credit": "Institutional",
+      "Documentation": "Online Portal",
+      "Verification": "Department of Fisheries"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana: Accident Insurance Scheme - Uttarakhand",
+    "eligibility": {
+      "Residency": "Uttarakhand",
+      "Profession": "Fish production/fishing",
+      "Caste": "Any",
+      "Age": "18-70 years",
+      "Nominee": "Required",
+      "Disability": "Partial/Permanent",
+      "Cause": "Accident"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana: Refrigerated Vehicles – Haryana",
+    "eligibility": {
+      "Residence": "Haryana",
+      "ID": "Parivar Pehchan Patra",
+      "Usage": "Fish transportation",
+      "Subsidy": "One vehicle",
+      "Activity": "Fishery-related",
+      "Liability": "Applicant"
+    }
+  },
+  {
+    "scheme_name": "Prime Minister’s Scholarship Scheme for the Wards of States/UTs Police Personnel",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Course": "First professional degree",
+      "Fields": "Engineering, Medicine, etc.",
+      "MEQ_Marks": "60%",
+      "Renewal_Marks": "50%",
+      "Grace_Period": "1 year",
+      "Family_Limit": "2 children",
+      "Marital_Status": "Any",
+      "Entry_Mode": "Direct/Lateral",
+      "Recognition": "Government Regulatory Bodies",
+      "Degree_Type": "Regular"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "eligibility": {
+      "Age": "18-50",
+      "Account": "Bank/Post Office"
+    }
+  },
+  {
+    "scheme_name": "Central Assistance For One Time Settlement Of Displaced Families From PoK And Chhamb Under Prime Minister's Development Package",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Family": "Displaced",
+      "Categories": "PoK, Chhamb",
+      "Year": "1947, 1965, 1971",
+      "Documents": "Required"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana - Recognition Of Prior Learning",
+    "eligibility": {
+      "Committee": "Executive/State"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Gram Sadak Yojana",
+    "eligibility": {
+      "Region": "Habitation",
+      "Population_Plain": "500+",
+      "Population_Hilly": "250+",
+      "Census": "2001"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Jan Dhan Yojana",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Age": "Any",
+      "Minor_Restriction": "Guardian support required above 10 years"
+    }
+  },
+  {
+    "scheme_name": "Prime Minister's Scholarship Scheme for the Wards/Widows of Central Police Force Personnel",
+    "eligibility": {
+      "Eligible": "Wards/Widows of CPFs",
+      "Nationality": "Indian",
+      "Income_Limit": "No limit",
+      "Course": "First professional degree",
+      "Academic_Requirement": "60% at 10+2 level",
+      "Renewal_Requirement": "50% each year",
+      "Family_Limit": "2 children",
+      "Marital_Status": "Any",
+      "Rank_Limit": "Up to Subedar Major/Inspector"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Institution": "QHEIs",
+      "Admission": "Merit-based",
+      "Income_Limit": "₹8 lakh",
+      "Scholarship": "None",
+      "Performance": "Satisfactory",
+      "Benefit": "Once",
+      "Rank_Limit": "Top 100/200",
+      "Governance": "Government"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Kisan Samridhi Sah-yojana (PM-MKSSY): COMPONENT 1B: One-Time Incentive for the Adoption of Aquaculture Insurance",
+    "eligibility": {
+      "Applicant": "Fisheries microenterprise/individual",
+      "Registration": "NFDP",
+      "Credit": "Institutional",
+      "BankAccount": "Aadhaar-seeded",
+      "Documentation": "Loan sanction/disbursement",
+      "Consent": "Verification/validation"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana: Establishment of Backyard mini RAS Units - Haryana",
+    "eligibility": {
+      "Residence": "Haryana",
+      "ID": "Parivar Pehchan Patra",
+      "Land": "Free from encumbrances",
+      "WaterSource": "Any surface or groundwater",
+      "Operation": "At own cost",
+      "Infrastructure": "Essential RAS requirements",
+      "Lease": "Minimum 10 years"
+    }
+  },
+  {
+    "scheme_name": "Prime Minister Early Career Research Grant",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Citizenship": "OCI/PIO",
+      "Qualification": "Ph.D./MD/MS",
+      "Position": "Regular",
+      "Institution": "Recognized",
+      "Joining_Eligibility": "Within 2 years",
+      "Age_Limit": "42 years",
+      "Relaxation": "3 years",
+      "Funding_Eligibility": "No prior funding",
+      "Proposal_Limit": "One",
+      "Grant_Type": "One-time",
+      "Tenure_Extension": "Not permitted",
+      "Project_Transfer": "Restricted"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana: Motor Cycle with Ice Box - Haryana",
+    "eligibility": {
+      "Residence": "Haryana",
+      "ID": "Parivar Pehchan Patra",
+      "Maintenance": "Operational condition",
+      "Subsidy": "Motorcycle with ice box",
+      "Usage": "Fishery-related",
+      "Liability": "Applicant"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana: Medium Fish Feed Mill of Production Capacity of 8 Ton/Day",
+    "eligibility": {
+      "Residence": "Haryana",
+      "ID": "Parivar Pehchan Patra",
+      "Condition": "Working",
+      "Pricing": "Affordable",
+      "Land": "Owned or Leased"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana: Mini Fish Feed Mills of Production Capacity of 2 Ton /Day",
+    "eligibility": {
+      "Residence": "Haryana",
+      "ID": "Parivar Pehchan Patra",
+      "Costs": "Self-borne",
+      "Condition": "Functional",
+      "Pricing": "Affordable",
+      "Land": "Owned or leased"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Rashtriya Bal Puraskar",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Age": "5-18 years",
+      "Timeframe": "2 years",
+      "Categories": [
+        "Bravery",
+        "Art & Culture",
+        "Environment",
+        "Innovation",
+        "Science & Technology",
+        "Social Service",
+        "Sports"
+      ]
+    }
+  },
+  {
+    "scheme_name": "Prime Minister’s Scholarship Scheme for the Wards of Central Armed Police Forces & Assam Rifles",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Parents": "CAPFs/AR",
+      "Course": "First professional degree",
+      "Fields": "Engineering, Medicine, etc.",
+      "Entry_Marks": "60%",
+      "Renewal_Marks": "50%",
+      "Grace_Period": "1 year",
+      "Lateral_Entry": "Diploma",
+      "Recognition": "AICTE, MCI, UGC",
+      "Degree_Type": "Regular"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Garib Kalyan Anna Yojana",
+    "eligibility": {
+      "Category": "AAY, PHH",
+      "Household": "Widows, disabled, elderly",
+      "Support": "No assured means",
+      "Tribal": "Primitive",
+      "Occupation": "Landless, marginal farmers, artisans",
+      "Sector": "Informal",
+      "Status": "Below Poverty Line",
+      "Disease": "HIV positive"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Garib Kalyan Package : Insurance Scheme For Health Workers Fighting COVID-19",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Profession": "Healthcare worker",
+      "Registration": "Government health program",
+      "Workplace": "COVID-19 hospital"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Awaas Yojana - Gramin",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Household": "Deprived",
+      "Priority": "Multilayered",
+      "Categories": [
+        "SC/ST",
+        "Minorities",
+        "Others"
+      ],
+      "Compulsory_Inclusion": [
+        "Destitute",
+        "Manual Scavengers",
+        "Primitive Tribal Groups",
+        "Bonded Laborer"
+      ],
+      "Deprivation_Parameters": [
+        "Houseless",
+        "Rooms",
+        "No Adult Member",
+        "Female-Headed",
+        "No Literate Adult",
+        "Disabled Member",
+        "Landless"
+      ],
+      "Target_Earmarking": {
+        "SC/ST": "60%",
+        "Minorities": "15%",
+        "PwDs": "3%"
+      },
+      "Tie_Breaker": [
+        "Widows of Martyrs",
+        "Leprosy/Cancer/PLHIV",
+        "Single Girl Child",
+        "Forest Rights Act Beneficiaries",
+        "Transgender"
+      ]
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Awas Yojana - Urban",
+    "eligibility": {
+      "Nationality": "Indian",
+      "EWS_Income": "₹3 lakh",
+      "EWS_HouseSize": "30 sq.m",
+      "LIG_Income": "₹3-6 lakh",
+      "LIG_HouseSize": "60 sq.m",
+      "MIG1_Income": "₹6-12 lakh",
+      "MIG1_HouseSize": "160 sq.m",
+      "MIG2_Income": "₹12-18 lakh",
+      "MIG2_HouseSize": "200 sq.m"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+    "eligibility": {
+      "Degree": "D. Pharma/B. Pharma",
+      "Employment": "Degree holders",
+      "Organization": "NGO/Charitable",
+      "Location": "Government hospital",
+      "Eligible": "Individuals/NGOs"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Fasal Bima Yojna (PMFBY)",
+    "eligibility": {
+      "Eligible": "All farmers",
+      "Crops": "Notified crops",
+      "Areas": "Notified areas",
+      "Interest": "Insurable interest",
+      "Certificate": "Valid land ownership",
+      "Agreement": "Valid land tenure",
+      "Role": "Cultivator or sharecropper",
+      "Deadline": "2 weeks from sowing start",
+      "Compensation": "No other source"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Formalisation Of Micro Food Processing Enterprises",
+    "eligibility": {
+      "EligibleEntities": "FPO, SHG, Co-operatives, Individuals",
+      "AgeLimit": "Above 18",
+      "Education": "VIII standard pass",
+      "FamilyLimit": "One person per family",
+      "Ownership": "Proprietary, Partnership",
+      "Workers": "Less than 10",
+      "Turnover": "Rs. 1 crore for Co-operatives/FPOs, Rs. 5 crore for Branding and Marketing",
+      "Experience": "3 years for Co-operatives/FPOs, SHGs",
+      "Contribution": "10% of project cost",
+      "LandCost": "Excluded from project cost",
+      "LeasePeriod": "Maximum 3 years",
+      "Nationality": "Indian",
+      "Product": "ODOP preferred"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Gramin Digital Saksharta Abhiyaan",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Literacy": "Digitally Illiterate",
+      "Household": "One per household",
+      "Age": "14-60 years",
+      "Priority": "Non-smartphone users, Antyodaya, drop-outs, adult literacy participants",
+      "Students": "Class 9-12 without ICT training",
+      "Target": "SC, ST, BPL, women, differently-abled, minorities"
+    }
+  },
+  {
+    "scheme_name": "Pradhan Mantri Matsya Sampada Yojana",
+    "eligibility": {
+      "Eligible": "Fishers, Fish Farmers, Fish Workers, Fisheries Corporations, SHGs, Cooperatives, Federations, Entrepreneurs, FFPOs, SCs, STs, Women, Differently Abled, State Governments, SFDB, Central Government"
+    }
+  },
+  {
+    "scheme_name": "Award of Pre-matric Scholarship to the Students Whose Parents Are Engaged in Unclean Occupation",
+    "eligibility": {
+      "Caste": "Scheduled",
+      "Status": "Student",
+      "Class": "1st-10th",
+      "Residence": "Puducherry",
+      "Parents_Occupation": "Unclean"
+    }
+  },
+  {
+    "scheme_name": "Centrally Sponsored Scheme of Pre-matric Scholarship to Other Backward Classes (OBC) for Studies in India",
+    "eligibility": {
+      "Income_Limit": "₹2.5 lakh",
+      "Institution": "Recognized",
+      "Attendance": "60%",
+      "Exclusivity": "No other scheme",
+      "Girl_Reservation": "30%",
+      "Disability_Coverage": "5%"
+    }
+  },
+  {
+    "scheme_name": "Aravanaippu Illam",
+    "eligibility": {
+      "Socioeconomic": "Needy",
+      "Age": "20+ years",
+      "Health": "No communicable disease"
+    }
+  },
+  {
+    "scheme_name": "Award of Adhoc Merit Grant (Special Incentive) to Scheduled Caste Students",
+    "eligibility": {
+      "Caste": "Scheduled",
+      "Marks": "65% and above",
+      "Residence": "Puducherry",
+      "Residence_Duration": "5 years",
+      "Course": "Higher studies",
+      "Institution": "Recognized",
+      "Income_Limit": "No limit",
+      "Age_Limit": "No limit"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance for the Purchase of Lifejackets and Lifebuoys for Fishermen",
+    "eligibility": {
+      "Profession": "Fisherman",
+      "Residence": "Goa",
+      "Vessel": "Canoe or Trawler"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance to Purchase/Construct New Fishing Craft less than 26 feet for Fishing in Inland Waters of Goa",
+    "eligibility": {
+      "Profession": "Fisherman",
+      "Residence": "Goa",
+      "Registration": "Department of Captain of Ports"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Swami Vivekananda Merit-cum-Means Scholarship",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "SERB International Research Experience",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Degree": "Ph.D.",
+      "Field": "Science and Engineering",
+      "Position": "Permanent",
+      "Institution": "Indian research and academic",
+      "Alternative_Degrees": "MBBS/MD/Veterinary",
+      "TARE": "Eligible",
+      "Support_Letter": "Required",
+      "Age_Limit": "40 years",
+      "Age_Relaxation": "5 years"
+    }
+  },
+  {
+    "scheme_name": "Amma Two Wheeler Scheme for Working Women",
+    "eligibility": {
+      "Gender": "Woman",
+      "Family_Limit": "One"
+    }
+  },
+  {
+    "scheme_name": "National Science Chair- Scientific Excellence",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Field": "STEM, Medicine",
+      "Residence": "Active",
+      "Track_Record": "Outstanding",
+      "Recognition": "National, International",
+      "Affiliation": "Academic, R&D",
+      "Research_Plan": "Original",
+      "Mentorship": "Young Researchers"
+    }
+  },
+  {
+    "scheme_name": "Rajbhasha Gaurav Puraskar Scheme for writing original book in Hindi",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Genres": "Engineering, Science, Culture, Law",
+      "Original": "Yes",
+      "Translated": "No",
+      "Previously_Awarded": "No",
+      "Publication_Period": "1st Jan - 31st Dec",
+      "Book_Type": "Analytical review",
+      "Excluded_Types": "Thesis, Poems, Novel, Story, Play, Textbook",
+      "Page_Limit": "100 pages",
+      "ISBN": "Required",
+      "Previous_Prize": "Not in last 3 years",
+      "Coauthor_Rule": "Separate proforma, shared prize"
+    }
+  },
+  {
+    "scheme_name": "Supply of Insulated Boxes",
+    "eligibility": {
+      "Occupation": "Fisherman",
+      "Activities": "Selling, Sea Fishing",
+      "VesselType": "Canoe, Mechanized",
+      "EngineLimit": "6-cylinder"
+    }
+  },
+  {
+    "scheme_name": "SERB - POWER Research Grants",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Position": "Regular academic/research",
+      "Institution": "Recognized Indian institution",
+      "Category": "Level I or Level II",
+      "Eligible_Faculties": "UGC-Faculty Recharge, INSPIRE, Ramanujan, Ramalingaswamy",
+      "Female_COPI": "Mandatory",
+      "Male_COPI": "Not allowed",
+      "PhD_Guide_COPI": "Not allowed",
+      "Previous_PIs": "Not eligible",
+      "JC_Bose_Fellows": "Not eligible",
+      "Max_COPIs": "2"
+    }
+  },
+  {
+    "scheme_name": "Thakur Sen Negi Utkrisht Chatravriti Yojana",
+    "eligibility": {
+      "Residence": "Himachal Pradesh",
+      "Category": "Scheduled Tribes",
+      "Education": "Class 10th passed",
+      "Rank": "Top 100",
+      "Institution": "Recognized",
+      "Account": "Bank"
+    }
+  },
+  {
+    "scheme_name": "Grant of Transport Allowance to Differently Abled Persons",
+    "eligibility": {
+      "Assistance": "None",
+      "Source": "Department or other"
+    }
+  },
+  {
+    "scheme_name": "Jeevanam Self-Employment Scheme To Dependents Of Crime Victims",
+    "eligibility": {
+      "Timeframe": "5 years"
+    }
+  },
+  {
+    "scheme_name": "Agriculture Academic Studies Scheme",
+    "eligibility": {
+      "Residence": "Meghalaya",
+      "Course": "4-year degree",
+      "Stream": "Science",
+      "Subjects": "Physics, Chemistry, Biology, English",
+      "Gen_OBC_Marks": "55%",
+      "SC_ST_Marks": "45%",
+      "Exam": "ICAR AIEEA"
+    }
+  },
+  {
+    "scheme_name": "Nirman Shramik Auzaar Toolkit Sahayata Yojana",
+    "eligibility": {
+      "Residence": "Rajasthan",
+      "Registration": "3 years",
+      "Purchase": "Self",
+      "Bill": "Required",
+      "Usage": "Work-related"
+    }
+  },
+  {
+    "scheme_name": "Development of Choir Industries",
+    "eligibility": {
+      "Residence": "Puducherry",
+      "Residency_Duration": "3 years",
+      "Training_Status": "Not trained"
+    }
+  },
+  {
+    "scheme_name": "OEC Pre-matric Educational Assistance",
+    "eligibility": {
+      "Community": "OEC/Others",
+      "School": "Government/Aided/Recognized",
+      "Class": "1st to 10th",
+      "OEC_Income": "No limit",
+      "Oth_Income": "₹6 lakh"
+    }
+  },
+  {
+    "scheme_name": "Educational Assistance To Children Of Prisoners (Pursuing Professional Course)",
+    "eligibility": {
+      "Residence": "Kerala",
+      "Income": "BPL",
+      "Parent": "Prisoner",
+      "Admission": "Merit",
+      "Marks": "70%+",
+      "Course": "Degree",
+      "College": "Government/Aided",
+      "Preference": "Marks"
+    }
+  },
+  {
+    "scheme_name": "Suraksha Laghu Evan Simant Vriddhajan Krishak Samman Pension Yojana",
+    "eligibility": {
+      "State": "Rajasthan",
+      "Occupation": "Farmer",
+      "Female_Age": "55+ years",
+      "Male_Age": "58+ years"
+    }
+  },
+  {
+    "scheme_name": "Scheme of Scholarship for Sainik Schools",
+    "eligibility": {
+      "School": "Sainik School Goalpara",
+      "Category": "ST/SC/Service Personnel",
+      "Class": "12th",
+      "Language": "English",
+      "Residence": "Meghalaya",
+      "Income": "₹8,000/- per month"
+    }
+  },
+  {
+    "scheme_name": "Nirman Shramikon ke Liye Vyavsayik Rin Par Byaj ki Punarbharan Yojana",
+    "eligibility": {
+      "Occupation": "Construction worker",
+      "Registration": "Mandatory",
+      "Loan_Use": "Own business",
+      "Exclusions": "Shop/plot/vehicle/household goods",
+      "Repayment": "Annual certificate",
+      "Applicant": "Beneficiary or spouse",
+      "Fraud": "Repay with interest"
+    }
+  },
+  {
+    "scheme_name": "Disability Pension (MBOCWWB)",
+    "eligibility": {
+      "Residence": "Meghalaya",
+      "Occupation": "Construction work",
+      "Registration": "MBOCWWB",
+      "Membership": "Active",
+      "Disability": "Permanent"
+    }
+  },
+  {
+    "scheme_name": "Pension Plan (MBOCWWB)",
+    "eligibility": {
+      "Residence": "Meghalaya",
+      "Occupation": "Construction",
+      "Registration": "MBOCWWB",
+      "Experience": "1 year",
+      "Age": "60 years"
+    }
+  },
+  {
+    "scheme_name": "Nirman Shramik Avm Unke Aashrit Bacchon Dwara Bhartiya Rajasthan Prashasnik Seva Hetu Aayojit Pratibhabhik Yojana",
+    "eligibility": {
+      "Registration": "Construction worker",
+      "Income_Limit": "₹2,50,000",
+      "Employment": "Not government service",
+      "Examination": "IAS/RAS Preliminary",
+      "State": "Rajasthan",
+      "Incentive": "Once per exam",
+      "Fraud": "Refund with interest"
+    }
+  },
+  {
+    "scheme_name": "Anti Bird Net",
+    "eligibility": {
+      "Nationality": "Rajasthani",
+      "Land": "Cultivable",
+      "Ownership": "Orchard and irrigation"
+    }
+  },
+  {
+    "scheme_name": "Cash Grant in lieu of Sewing Machine",
+    "eligibility": {
+      "Applicant": "Widow of Ex-serviceman",
+      "Registration": "Department of Sainik Welfare, Puducherry",
+      "Employment": "Any, including re-employed and self-employed"
+    }
+  },
+  {
+    "scheme_name": "National Handicrafts Development Programme: Direct Benefit to Artisans - Supports to Artisans in Indigent Circumstances",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Award": "Shilp Guru/National/Merit/State",
+      "Income": "₹1,00,000",
+      "Assistance": "None",
+      "Age": "60+"
+    }
+  },
+  {
+    "scheme_name": "Scheme of Awarding Porkizhi to the Indigent Kalaimamani Awardee Artists",
+    "eligibility": {
+      "Occupation": "Artist",
+      "Award": "Kalaimamani",
+      "Status": "Indigent",
+      "Age": "58+ years",
+      "Income": "₹12,000"
+    }
+  },
+  {
+    "scheme_name": "Maternity Assistance Scheme- Gujarat Labour Welfare Board",
+    "eligibility": {
+      "Sector": "Organized",
+      "Location": "Gujarat",
+      "Employment_Duration": "1 year",
+      "Fund_Deposit": "Yes",
+      "Application_Timeframe": "1 year",
+      "Beneficiary": "Female worker/wife",
+      "Delivery_Limit": "1"
+    }
+  },
+  {
+    "scheme_name": "Spectacle Grant (Sainik Welfare)",
+    "eligibility": {
+      "Applicant": "Ex-serviceman/Widow",
+      "Registration": "Sainik Welfare",
+      "Exclusion": "ECHS member"
+    }
+  },
+  {
+    "scheme_name": "Scheme of Extending Grants for the Publication of Rare Books on Arts",
+    "eligibility": {
+      "Profession": "Author/Writer",
+      "Financial": "Insufficient",
+      "Book_Type": "Rare",
+      "Publication": "Unpublished"
+    }
+  },
+  {
+    "scheme_name": "Tablet Assistance to Scheduled Caste Students of 12th Standard",
+    "eligibility": {
+      "Caste": "Scheduled Caste",
+      "State": "Gujarat",
+      "Standard": "12th",
+      "Income_Limit": "No limit"
+    }
+  },
+  {
+    "scheme_name": "Abdul Kalam Technology Innovation National Fellowship",
+    "eligibility": {
+      "Nationality": "Indian/OCI",
+      "Employment": "Public institutions",
+      "Qualification": "Bachelor's degree",
+      "Experience": "Proven track record",
+      "Service_Left": "5 years",
+      "Other_Fellowship": "Not allowed"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Financial Assistance to Poor Scheduled Caste People Suffering From Prolonged Diseases",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Residence": "Puducherry",
+      "Caste": "Scheduled",
+      "Age": "18+ years",
+      "Income_Limit": "₹2 lakh"
+    }
+  },
+  {
+    "scheme_name": "Grant Of Retention Scholarship to Scheduled Caste Girl Students",
+    "eligibility": {
+      "Retention": "Till completion"
+    }
+  },
+  {
+    "scheme_name": "Scheme of Giving Awards to Eminent Artists - Kalai Ilamani Award",
+    "eligibility": {
+      "Profession": "Artist",
+      "Age": "18 and below"
+    }
+  },
+  {
+    "scheme_name": "Full Medical Checkup Assistance Scheme- Gujarat Labour Welfare Board",
+    "eligibility": {
+      "Eligibility": "Regularly paid Labour Welfare Fund",
+      "Age_Male": "Above 45",
+      "Age_Female": "Above 35",
+      "Frequency": "Once a year",
+      "Responsibility": "Not applicable for side effects",
+      "Examination_Timeframe": "Within 30 days"
+    }
+  },
+  {
+    "scheme_name": "Krishi Yantra",
+    "eligibility": {
+      "Land": "Own",
+      "Family_Land": "Name in record",
+      "Tractor": "Registered",
+      "Grant_History": "None in 3 years",
+      "Grant_Limit": "3 types/year"
+    }
+  },
+  {
+    "scheme_name": "The Andaman & Nicobar Islands Disability Allowance Scheme",
+    "eligibility": {
+      "Residency": "Andaman and Nicobar Islands",
+      "Residency_Duration": "10 years",
+      "Age": "1 month or more",
+      "Disability": "40% or above",
+      "Income_Ceiling": "None",
+      "Employment": "Not allowed",
+      "Other_Assistance": "Not allowed"
+    }
+  },
+  {
+    "scheme_name": "Free Medical Card for Media Persons",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Residence": "Puducherry",
+      "Residence_Duration": "5 years",
+      "Profession": "Press Correspondent"
+    }
+  },
+  {
+    "scheme_name": "Mukhyamantri Sports Development Scheme - Retired Person",
+    "eligibility": {
+      "Residence": "Tripura",
+      "Status": "Retired sportsperson",
+      "Age_Limit": "less than 64 years"
+    }
+  },
+  {
+    "scheme_name": "Scheme for Pension Benefits to the Journalists/Photojournalists",
+    "eligibility": {
+      "Age": "18+ years",
+      "Retirement": "Accredited journalist/photojournalist",
+      "Service": "10 years in Tripura",
+      "Pension": "Not from other sources",
+      "EPF": "Allowed",
+      "Benefit_Age": "60+ years"
+    }
+  },
+  {
+    "scheme_name": "Chief Minister’s Girl Child Protection Scheme-II",
+    "eligibility": {
+      "Parent": "Sterilized",
+      "Age_Limit": "40 years"
+    }
+  },
+  {
+    "scheme_name": "Laxman Award / Rani Laxmi Bai Award Scheme",
+    "eligibility": {
+      "Nationality": "Uttar Pradesh native",
+      "Participation": "National Games/Senior Championship",
+      "Medal": "Earned in recommended year",
+      "International": "Olympic/World/Asian/Commonwealth Games",
+      "DrugFree": "No drug consumption",
+      "CourtClear": "No court convictions",
+      "HarassmentFree": "No sexual harassment",
+      "Sports": "31 specified sports",
+      "Reward": "Once in a lifetime",
+      "Cancellation": "Government discretion"
+    }
+  },
+  {
+    "scheme_name": "Rashtriya Gram Swaraj Abhiyan - Internship Program",
+    "eligibility": {
+      "Nationality": "Indian/Foreign",
+      "Course": "UG/PG/PhD/PostDoc",
+      "Disciplines": "Social Sciences, Management, Engineering",
+      "Duration": "15 days to 6 months",
+      "Stipend": "Optional",
+      "Equipment": "Laptop",
+      "Facilities": "Workspace, Internet, Library"
+    }
+  },
+  {
+    "scheme_name": "RMEWF-Financial Assistance To 100% Disabled Child Of Ex-Servicemen",
+    "eligibility": {
+      "Parent": "Ex-Servicemen",
+      "Rank": "JCO and below",
+      "Disability": "100%",
+      "Benefit": "None",
+      "Recommendation": "ZSB"
+    }
+  },
+  {
+    "scheme_name": "Post Matric Scholarship Students With Disabilities",
+    "eligibility": {
+      "Income_Limit": "₹50 lakh"
+    }
+  },
+  {
+    "scheme_name": "Skill Loan Scheme",
+    "eligibility": {
+      "Institution": "ITI/Polytechnic/School/College",
+      "Affiliation": "Recognized University/NSDC",
+      "Admission": "Secured"
+    }
+  },
+  {
+    "scheme_name": "National Pension Scheme For Traders And Self Employed Persons",
+    "eligibility": {
+      "Occupation": "Self-Employed",
+      "Age": "18-40 years",
+      "Turnover": "₹1.5 crore"
+    }
+  },
+  {
+    "scheme_name": "RMEWF-Financial Assistance For Vocational Training Of Widows Of Ex-Servicemen",
+    "eligibility": {
+      "Relation": "Widow",
+      "Rank": "Havildar",
+      "Completion": "Successful",
+      "Recommendation": "ZSB"
+    }
+  },
+  {
+    "scheme_name": "Women Scientist Scheme-C",
+    "eligibility": {
+      "Gender": "Female",
+      "Career": "Break",
+      "Age": "27-45 years",
+      "Qualification": "MSc/BTech"
+    }
+  },
+  {
+    "scheme_name": "Pre Matric Scholarship For Minorities",
+    "eligibility": {
+      "Class": "1st-10th",
+      "Community": "Minority",
+      "Income_Limit": "₹1 lakh",
+      "Marks": "50%",
+      "Other_Scholarship": "No",
+      "Sibling_Limit": "2"
+    }
+  },
+  {
+    "scheme_name": "Scheme For Financial Assistance For Veteran Artists",
+    "eligibility": {
+      "Exclusion": "Artiste pension"
+    }
+  },
+  {
+    "scheme_name": "National Overseas Scholarship For Students With Disabilities",
+    "eligibility": {
+      "Status": "Student",
+      "Course": "Masters/PhD",
+      "Institution": "Accredited abroad",
+      "Disability": "40%+",
+      "Age": "35 years",
+      "Income": "₹6 lakh"
+    }
+  },
+  {
+    "scheme_name": "Pre-Matric Scholarship",
+    "eligibility": {
+      "Residence": "Uttar Pradesh",
+      "Income_Limit": "₹2 Lakh",
+      "Institution": "Government/Aided"
+    }
+  },
+  {
+    "scheme_name": "Stand-Up India",
+    "eligibility": {
+      "Enterprise": "Greenfield",
+      "Gender": "SC/ST male or female",
+      "Age": "At least 18",
+      "Default": "No"
+    }
+  },
+  {
+    "scheme_name": "Old Age Samman Allowance",
+    "eligibility": {
+      "Age": "60+ years",
+      "Residence": "Haryana",
+      "Income_Limit": "₹3 lakh"
+    }
+  },
+  {
+    "scheme_name": "Skilled Youth Startup Scheme",
+    "eligibility": {
+      "ID": "COI/Sikkim Subject",
+      "Education": "Class V",
+      "Technical_Certificate": "Required",
+      "Age": "18-45",
+      "Family_Members": "One",
+      "Income_Limit": "₹8 lakhs",
+      "Contribution": "5-15%",
+      "Defaulter": "No",
+      "Subsidy": "No",
+      "Trade_License": "Yes",
+      "PWD_Subidy": "50%"
+    }
+  },
+  {
+    "scheme_name": "Biju Yuva Sashaktikaran Yojana",
+    "eligibility": {
+      "Residence": "Odisha",
+      "Qualification": "+2 Passout",
+      "Alternative_Qualification": "Upshastri Exam"
+    }
+  },
+  {
+    "scheme_name": "Rajasthan Chief Minister's Relief Fund - Medical Help",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {
+      "Gender": "Woman",
+      "Income_Limit": "₹1.5 lakh",
+      "Age": "18-55 years",
+      "Residence": "Karnataka",
+      "Loan_Status": "No default",
+      "Preference": "Poor, widow, disabled, skilled"
+    }
+  },
+  {
+    "scheme_name": "Mukhyamantri Mahila Utkarsh Yojana",
+    "eligibility": {
+      "Gender": "Female",
+      "Residency": "Gujarat",
+      "Age": "18+ years",
+      "Education": "8th standard",
+      "ID": "Aadhaar"
+    }
+  },
+  {
+    "scheme_name": "Modular Employable Skills",
+    "eligibility": {
+      "Target": "Youth",
+      "Education": "Less educated",
+      "Employment": "Unemployed",
+      "Alternates": "ITI graduates, Workers"
+    }
+  },
+  {
+    "scheme_name": "Kalpana Chawla Chatravriti Yojana",
+    "eligibility": {
+      "Residence": "Himachal Pradesh",
+      "Gender": "Female",
+      "Course": "10+2, UG, PG, Professional",
+      "Institution": "Government/Aided/Private School",
+      "Selection": "10+2 Merit"
+    }
+  },
+  {
+    "scheme_name": "Krishak Bakri Palan Yojna",
+    "eligibility": {
+      "Residence": "Himachal Pradesh",
+      "Training": "Goat husbandry",
+      "Categories": "General/SC/ST/BPL/Women",
+      "Employment": "Unemployed",
+      "Women_Beneficiaries": "30% minimum",
+      "Government_Job": "None in family",
+      "Income_Limit": "₹2 lakh",
+      "Shed": "Own/Built under MGNREGA"
+    }
+  },
+  {
+    "scheme_name": "Internship Programme By The Ministry Of External Affairs",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Education": "Graduate",
+      "Age_Limit": "25 years",
+      "Priority": "SC/ST/OBC/EWS, TADP"
+    }
+  },
+  {
+    "scheme_name": "Netaji Subhas - ICAR International Fellowship",
+    "eligibility": {
+      "Marks": "60/10 or 65%"
+    }
+  },
+  {
+    "scheme_name": "Research Grant For In-Service Faculty Members",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "Post Matric Scholarship Scheme For The Students Belonging To Scheduled Tribe For Studies In India",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Income_Limit": "Varies",
+      "Course": "Post-matric",
+      "Tribal_Status": "Scheduled Tribe",
+      "Education_Level": "Matriculation or higher",
+      "Employment_Status": "Full-time student or leave without pay",
+      "Other_Scholarship": "Not allowed",
+      "Additional_Aid": "Free lodging, book grant or adhoc monetary help allowed"
+    }
+  },
+  {
+    "scheme_name": "Chief Ministergi Artistesinggi Tengbang (CMAT): Support For Purchase Of Instruments / Equipment",
+    "eligibility": {
+      "Residence": "Manipur",
+      "Institute": "Listed colleges",
+      "Course": "Arts",
+      "Age_Limit": "30 years",
+      "Income_Limit": "₹1 lakh"
+    }
+  },
+  {
+    "scheme_name": "Integrated Child Development Services Scheme",
+    "eligibility": {
+      "Age": "0-6 years",
+      "Beneficiaries": "Pregnant women, Lactating mothers, Children"
+    }
+  },
+  {
+    "scheme_name": "Delhi Arogya Kosh",
+    "eligibility": {
+      "Income": "₹3 lacs",
+      "Residency": "Delhi",
+      "Residency_Duration": "3 years",
+      "Treatment_Location": "Government Hospital"
+    }
+  },
+  {
+    "scheme_name": "Chikitsa Pratipoorti Yojana",
+    "eligibility": {
+      "Domicile": "Jharkhand",
+      "Registration": "JBOCWW Board",
+      "Age": "18+ years",
+      "Occupation": "Construction worker",
+      "Benefit_Limit": "Once per disease",
+      "Eligible_Diseases": [
+        "Cancer",
+        "Heart disease",
+        "Kidney disease",
+        "Mental disease",
+        "AIDS",
+        "Total hip replacement",
+        "Spinal surgery",
+        "Vascular disease",
+        "Bone marrow transplant",
+        "Liver transplant",
+        "Hepatoma",
+        "Cirrhosis",
+        "Retinal detachment",
+        "Diabetic retinopathy",
+        "Reflux disease"
+      ]
+    }
+  },
+  {
+    "scheme_name": "Merit Cum Means Linked Financial Assistance Scheme",
+    "eligibility": {
+      "Income_Limit": "₹6 Lakh",
+      "Percentage": "50%",
+      "Relaxation": "5%",
+      "Category": "SC/ST",
+      "Family_Income": "₹2.5-6 Lakh"
+    }
+  },
+  {
+    "scheme_name": "Higher Education And Skill Development Guarantee Scheme",
+    "eligibility": {
+      "Location": "Delhi",
+      "Education": "Class-X and Class-XII",
+      "Employment": "Govt. of NCT of Delhi",
+      "Admission": "Entrance Test/Merit Based",
+      "Institution": "Recognized institutions",
+      "Accreditation": "NAAC/NBA/SFRC",
+      "Courses": "Diploma/Degree/Skill Development",
+      "Degree": "Graduate/Post-graduate",
+      "Approval": "UGC/Government/AICTE",
+      "Eligible_Courses": "Technical/Training/Skill Development"
+    }
+  },
+  {
+    "scheme_name": "Chief Minister’s Health Insurance Scheme - Nagaland",
+    "eligibility": {
+      "Employment": "Government",
+      "Documents": "PIMS Code, PPO book, Aadhaar card",
+      "Residency": "Nagaland",
+      "Exclusion": "AB PM-JAY",
+      "Certificate": "IIC or PRC",
+      "IssueYear": "2016",
+      "ID": "Aadhaar",
+      "Contact": "Valid mobile number"
+    }
+  },
+  {
+    "scheme_name": "ICAR Emeritus Scientist",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Age_Limit": "65 years",
+      "Experience": "5 years",
+      "Retirement": "Within 12 months",
+      "Max_Tenure": "3 years",
+      "Max_Age": "70 years"
+    }
+  },
+  {
+    "scheme_name": "Emeritus Fellowship",
+    "eligibility": {
+      "Eligibility": "Research quality",
+      "Age_Limit": "70 years",
+      "Tenure": "2 years",
+      "Extension": "Not allowed"
+    }
+  },
+  {
+    "scheme_name": "Savitribai Jyotirao Phule Fellowship For Single Girl Child",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Course": "Ph.D.",
+      "Mode": "Full-time",
+      "Age_General": "40",
+      "Age_Reserved": "45",
+      "Category": "Single girl child"
+    }
+  },
+  {
+    "scheme_name": "ICAR Senior Research Fellowship For Post-Graduate Studies In Agricultural Sciences",
+    "eligibility": {
+      "Nationality": "Any",
+      "Min_Marks": "5/10 or 2.75/5 or 2.20/4",
+      "Relaxation": "5% for SC/ST/PH",
+      "Course": "Post-Graduate",
+      "Certificate": "Complete degree"
+    }
+  },
+  {
+    "scheme_name": "Maulana Azad National Fellowship For Minority Students",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Community": "Minority",
+      "Eligible_Communities": "Buddhist, Christian, Jain, Muslim, Sikh, Zoroastrian",
+      "Exam": "UGC-NET or Joint CSIR-UGC NET",
+      "Employment": "Not eligible if employed",
+      "Previous_Fellowship": "Not eligible if availed earlier",
+      "Reapplication": "Not eligible if research not completed"
+    }
+  },
+  {
+    "scheme_name": "Subsidy Scheme For Purchase Of Taxi / Goods Vehicle / Passenger Autorickshaw",
+    "eligibility": {
+      "Income": "₹50 lakh",
+      "Family_Employment": "None in Government",
+      "License": "Valid driving",
+      "Previous_Loan": "None",
+      "Loan_Status": "Not defaulter"
+    }
+  },
+  {
+    "scheme_name": "Scholarship For Cadets Of Sainik School Imphal",
+    "eligibility": {
+      "Nationality": "Mizo",
+      "Residence": "Mizoram",
+      "Institution": "Sainik School Imphal",
+      "Overlap": "None",
+      "Duration": "1 year",
+      "Renewal": "Conditional",
+      "Medical_Fitness": "Required"
+    }
+  },
+  {
+    "scheme_name": "Shrama Shakthi Scheme",
+    "eligibility": {
+      "Income": "₹50 lakh"
+    }
+  },
+  {
+    "scheme_name": "Aponar Apon Ghar",
+    "eligibility": {
+      "Loan_Amount": "₹5,00,000+",
+      "Sanction_Date": "1st April 2019+"
+    }
+  },
+  {
+    "scheme_name": "Stipend To Students Studying at Govt. Hindi Institute Dimapur",
+    "eligibility": {
+      "Residence": "Nagaland",
+      "Institution": "Govt Hindi Institute Dimapur"
+    }
+  },
+  {
+    "scheme_name": "NEC Stipend And Book Grant Scheme",
+    "eligibility": {
+      "State": "Nagaland",
+      "Category": "ST, General",
+      "ST_Marks": "60%",
+      "General_Marks": "75%",
+      "Course": "Higher Professional"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance For The Marriage Of Daughters Of Poor Widows And Orphan Girls",
+    "eligibility": {
+      "Daughters": "Up to 2",
+      "Residence": "5 years in Delhi",
+      "Income_Limit": "₹1,00,000/- per year",
+      "Aadhar": "Required",
+      "Bank_Account": "Aadhaar-linked",
+      "Location": "NCT of Delhi",
+      "Assistance": "No other",
+      "Age": "Above 18",
+      "Application_Period": "60 days"
+    }
+  },
+  {
+    "scheme_name": "ICAR Junior Research Fellowship For Post-Graduate Studies In Agricultural Sciences",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Marks_General": "60%",
+      "Marks_OBC": "60%",
+      "Marks_UPS": "60%",
+      "Marks_SC": "55%",
+      "Marks_ST": "55%",
+      "Marks_PH": "55%",
+      "OGPA_General": "10.00/3.25/2.6",
+      "OGPA_SC": "5.5/2.75/2.20"
+    }
+  },
+  {
+    "scheme_name": "Assam Abhinandan Education Loan Subsidy Scheme",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Aamar Dukan On Wheels",
+    "eligibility": {
+      "Status": "Unemployed",
+      "Residence": "Assam",
+      "Age": "18+ years",
+      "Registration": "Employment Exchange",
+      "Qualification": "HSLC"
+    }
+  },
+  {
+    "scheme_name": "Dr. Ambedkar Medhavi Chattar Sansodhit Yojna",
+    "eligibility": {
+      "Category": "SC/BC/NT/DNT",
+      "Metric_Urban": "70%",
+      "Metric_Rural": "60-75%",
+      "Plus2_Urban": "75%",
+      "Plus2_Rural": "70%",
+      "Graduation_Urban": "65%",
+      "Graduation_Rural": "60%",
+      "BlockA_Metric": "70%",
+      "BlockB_Metric": "80%",
+      "General_Metric": "80%"
+    }
+  },
+  {
+    "scheme_name": "LIDCOM Gattai Stall Scheme",
+    "eligibility": {
+      "Knowledge": "Business",
+      "Loan": "Required"
+    }
+  },
+  {
+    "scheme_name": "The Scheme Of State Award For Disabled",
+    "eligibility": {
+      "Status": "Employee/Employer/Agency",
+      "Disability": "40%+",
+      "Nationality": "Indian",
+      "Residence": "Maharashtra"
+    }
+  },
+  {
+    "scheme_name": "Merit Awards",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Residence": "Maharashtra",
+      "Disability": "Yes",
+      "Rank": "Top 3",
+      "Exams": "S.S.C., H.S.C."
+    }
+  },
+  {
+    "scheme_name": "Marriage Assistance for the Construction Workers",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "Small Business in Service/Trading Sector for Persons with Disabilities (Divyangjan Swavalamban Yojana)",
+    "eligibility": {
+      "Residency": "Haryana",
+      "Disability": "40%+",
+      "Age": "18-55 years",
+      "Mental_Retardation_Age": "Above 14",
+      "UDID": "Mandatory for ₹15+ lakhs",
+      "PPP_ID": "Required"
+    }
+  },
+  {
+    "scheme_name": "Partial Disability Benefit for the Construction Workers",
+    "eligibility": {
+      "Residence": "Sikkim",
+      "Occupation": "Construction Worker",
+      "Age": "18-60 years",
+      "Service": "90 days",
+      "Registration": "Mandatory",
+      "Disability": "Partial"
+    }
+  },
+  {
+    "scheme_name": "Professional and Self Employment Scheme (HSFDC)",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Caste": "SC",
+      "FamilyStatus": "BPL",
+      "IncomeLimit": "₹1,80,000",
+      "BPLList": "Included"
+    }
+  },
+  {
+    "scheme_name": "Veda Vyasa Scheme for Vedic Education",
+    "eligibility": {
+      "Community": "Brahmin",
+      "Residence": "Andhra Pradesh",
+      "Age": "8-19 years",
+      "Course": "Vedic",
+      "Institution": "Registered Veda Pathasala",
+      "Completion": "Previous course",
+      "Enrollment": "PSS"
+    }
+  },
+  {
+    "scheme_name": "State Marriage Assistance Scheme",
+    "eligibility": {
+      "RationCard": "AAY/PHH",
+      "Residence": "Ladakh",
+      "BrideAge": "18+ years",
+      "GroomAge": "21+ years",
+      "Marriage": "First",
+      "Disability": "Benchmark"
+    }
+  },
+  {
+    "scheme_name": "Bharati Scheme for Education - Graduation",
+    "eligibility": {
+      "Academic": "Passed",
+      "PreviousYear": "Cleared"
+    }
+  },
+  {
+    "scheme_name": "State Government ST Scholarship (Class 9 to 10)",
+    "eligibility": {
+      "Category": "ST",
+      "Class": "9-10"
+    }
+  },
+  {
+    "scheme_name": "Bharati Scheme for Education Professional Education Course - Chartered Accountancy Intern",
+    "eligibility": {
+      "Community": "Brahmin",
+      "Residence": "Andhra Pradesh",
+      "Income_Limit": "₹3,00,000",
+      "Qualification": "CPT/Graduation",
+      "Registration": "CA-Inter/IPCC",
+      "Previous_Benefit": "No",
+      "Enrollment": "PSS"
+    }
+  },
+  {
+    "scheme_name": "Hostel Facility for Students Availing Education in Delhi",
+    "eligibility": {
+      "Nationality": "Madhya Pradesh native",
+      "Student_Type": "Regular",
+      "Location": "Delhi",
+      "Category": "SC",
+      "Course": "Undergraduate or higher"
+    }
+  },
+  {
+    "scheme_name": "Assistance in Case of Accidents (O.B.O.C.W.W.B)",
+    "eligibility": {
+      "Residence": "Odisha",
+      "Occupation": "Construction Worker",
+      "Age": "18-60 years",
+      "Work_Days": "90 days/year",
+      "Membership": "Not in other Welfare Fund",
+      "Nominee": "Deceased registered member",
+      "Disability": "Permanent or loss of limb/eye"
+    }
+  },
+  {
+    "scheme_name": "Pension for the Construction Workers",
+    "eligibility": {
+      "Residence": "Dadra and Nagar Haveli and Daman and Diu",
+      "Occupation": "Construction Worker",
+      "Age": "18-60 years",
+      "Experience": "90 days/year",
+      "Registration": "Registered member",
+      "Membership": "10 years"
+    }
+  },
+  {
+    "scheme_name": "Integrated Social Security Scheme: Pension for Women in Distress",
+    "eligibility": {
+      "Residency": "Ladakh",
+      "Category": "Distressed woman",
+      "Economic_Status": "BPL",
+      "Age_Range": "40-79 years",
+      "Income": "No source"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance to War Widows of Defence Forces",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Relation": "War Widow",
+      "Force": "Defence Forces",
+      "Wars": "1962, 1965, 1971"
+    }
+  },
+  {
+    "scheme_name": "Marriage Grant for the Marriage of the Daughter of War Disabled Ex-Servicemen above 50% Disability",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Disability": "Above 50%",
+      "Age": "18 years",
+      "Benefit_Limit": "Two daughters"
+    }
+  },
+  {
+    "scheme_name": "Indira Gandhi Pyari Behna Sukh-Samman Nidhi Yojana",
+    "eligibility": {
+      "Age": "18-59 years",
+      "Residence": "Himachal Pradesh",
+      "Exclusions": "Government employees, pensioners, contract workers, etc.",
+      "Family_Exclusions": "Central/State Government, Panchayat, honorarium receivers, tax payers"
+    }
+  },
+  {
+    "scheme_name": "Kanya Saksharta Protsahan Yojana",
+    "eligibility": {
+      "Gender": "Female",
+      "Residence": "Madhya Pradesh",
+      "Caste": "ST",
+      "StudentType": "Regular",
+      "Class": "11th"
+    }
+  },
+  {
+    "scheme_name": "IMA Nongthangleima Yaipha Tengbang Scheme",
+    "eligibility": {
+      "Gender": "Female",
+      "Residence": "Manipur",
+      "Age": "40+ years",
+      "Income": "None",
+      "Category": "Widows, Divorcees, Separated, Deprived, Marginalized, Single Women, Single Transgender Women, Low-income households"
+    }
+  },
+  {
+    "scheme_name": "Marriage Grant to War Widows’ Daughters of Ex-Servicemen",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Relation": "War Widow",
+      "Age": "18 years",
+      "Benefit_Limit": "2 daughters"
+    }
+  },
+  {
+    "scheme_name": "Niji Talabon Ka Jirnoddhar Ki Yojana",
+    "eligibility": {
+      "Occupation": "Fish Farmer",
+      "Pond": "Private Owner/Lessee"
+    }
+  },
+  {
+    "scheme_name": "Pratibha Yojana",
+    "eligibility": {
+      "Examination": "National Competitive",
+      "Examples": "JEE, NEET, CLAT, AIIMS, NDA"
+    }
+  },
+  {
+    "scheme_name": "Scheme for Celebration of Birth/death Anniversary of Eminent Personalities",
+    "eligibility": {
+      "Registration": "Societies Act",
+      "Accounts": "Audited"
+    }
+  },
+  {
+    "scheme_name": "Medical Expenses-Treatment for Major Ailments Including Surgery",
+    "eligibility": {
+      "Residence": "West Bengal",
+      "Occupation": "Construction Worker",
+      "Age": "18-60 years",
+      "Experience": "90 days/year",
+      "Registration": "Welfare Board",
+      "Ailments": "Cancer, Heart, Kidney, T.B., Eye, Leprosy, Nerve"
+    }
+  },
+  {
+    "scheme_name": "Scheme of Financial Assistance for Dance and Drama Troupes/Associations",
+    "eligibility": {
+      "Program": "New classical or folk",
+      "Registration": "Registered body",
+      "Standing": "At least 2 years",
+      "Theme": "New and original",
+      "Artist": "Native of territory"
+    }
+  },
+  {
+    "scheme_name": "Laghu Vyavassay Scheme",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Caste": "SC",
+      "Age": "18-45",
+      "Income": "₹1.5-3 lakh"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance to Persons Suffering from Rare Diseases",
+    "eligibility": {
+      "ID": "Parivar Pehchan Patra"
+    }
+  },
+  {
+    "scheme_name": "Silicosis Rehabilitation Pension- Haryana Silicosis Board",
+    "eligibility": {
+      "Disease": "Silicosis",
+      "Diagnosis": "Silicosis Diagnosis Board",
+      "Category": "A, B, C",
+      "Registration": "Haryana Silicosis Board",
+      "Employment": "Factory or construction site"
+    }
+  },
+  {
+    "scheme_name": "Promoting Registration for the Construction Workers",
+    "eligibility": {
+      "Residence": "Dadra and Nagar Haveli and Daman and Diu",
+      "Occupation": "Construction Worker",
+      "Age": "18-60 years",
+      "Experience": "90 days/year",
+      "Registration": "Registered member"
+    }
+  },
+  {
+    "scheme_name": "Dr. A.P.J. Abdul Kalam Meritorious Students Incentive Scheme (Class 12th Passed)",
+    "eligibility": {
+      "Residency": "Madhya Pradesh",
+      "Academic_Achievement": "Highest in district",
+      "School_Type": "Government",
+      "Income_Limit": "₹1 lakh"
+    }
+  },
+  {
+    "scheme_name": "Mukhyamantri Anusuchit Jati Evam Anusuchit Janjati Chhatrawas Anudan Yojana",
+    "eligibility": {
+      "Residence": "Bihar",
+      "Caste": "SC/ST",
+      "Hostel": "Departmental",
+      "Course": "Recognized",
+      "Institution": "Recognized"
+    }
+  },
+  {
+    "scheme_name": "Skill Development for the Construction Workers",
+    "eligibility": {
+      "Residence": "Dadra and Nagar Haveli and Daman and Diu",
+      "Occupation": "Construction Worker",
+      "Age": "18-60 years",
+      "Experience": "90 days/year",
+      "Registration": "Building and Other Construction Workers Welfare Board",
+      "Enrollment": "Pradhan Mantri Kaushal Vikas Yojana",
+      "Attendance": "Training programs"
+    }
+  },
+  {
+    "scheme_name": "Mukhyamantri Prakhand Parivahan Yojana",
+    "eligibility": {
+      "Residence": "Local block",
+      "Age": "18+ years",
+      "License": "Valid driving",
+      "Employment": "Not government",
+      "Category": "SC/ST/EBC/BC/Minority/General"
+    }
+  },
+  {
+    "scheme_name": "The Lokpal of India Internship Scheme",
+    "eligibility": {
+      "Status": "Student",
+      "Course": "Undergrad/Postgrad",
+      "Fields": "Law, Political Science, Public Admin, Public Policy, Management, Economics, Human Rights",
+      "Class12_Marks": "75%",
+      "Ug_Completion": "2 years",
+      "Ug_Marks": "55%",
+      "Pg_Marks": "55%",
+      "Equipment": "Laptop"
+    }
+  },
+  {
+    "scheme_name": "Sikkim Grant of Scholarship to Students with Disabilities Scheme",
+    "eligibility": {
+      "Student_Type": "Regular",
+      "Institution": "Recognized"
+    }
+  },
+  {
+    "scheme_name": "Poultry Farming Scheme (HSFDC)",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Caste": "SC",
+      "FamilyStatus": "BPL",
+      "IncomeLimit": "₹1,80,000",
+      "BPLSurvey": "Included"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance to Disabled Ex-Servicemen",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Status": "Disabled ex-serviceman",
+      "Discharge": "Medical grounds",
+      "Attribution": "Not attributable to service",
+      "Age": "No limit",
+      "OtherAssistance": "None"
+    }
+  },
+  {
+    "scheme_name": "Hospitalisation Relief Scheme",
+    "eligibility": {
+      "Registration": "Telangana BOCW Board",
+      "Hospitalization": "5+ days",
+      "Cause": "Accident or disease"
+    }
+  },
+  {
+    "scheme_name": "Potency Development Plan",
+    "eligibility": {
+      "Residence": "Chhattisgarh",
+      "Disability": "Yes",
+      "Disability_Percent": "40%+",
+      "Certificate": "Disability/UDID",
+      "Family_Status": "BPL or recommended",
+      "Income_Limit": "₹8,000"
+    }
+  },
+  {
+    "scheme_name": "Sanskrit Scholarship",
+    "eligibility": {
+      "Qualifications": "Not specified"
+    }
+  },
+  {
+    "scheme_name": "Research Scholarship for Disabled Students",
+    "eligibility": {
+      "Awardees": "10",
+      "Course": "PhD",
+      "Frequency": "Annual"
+    }
+  },
+  {
+    "scheme_name": "Maternity Benefit Scheme - Telangana",
+    "eligibility": {
+      "Registration": "Telangana Building & Other Construction Workers Welfare Board",
+      "Gender": "Female",
+      "Registration_Duration": "12 months",
+      "Assistance_Limit": "2 times",
+      "Benefit_Limit": "2 daughters",
+      "Parent_Eligibility": "One parent"
+    }
+  },
+  {
+    "scheme_name": "Scheme for Funeral Assistance in Case of Death of Registered Construction Worker",
+    "eligibility": {
+      "Applicant": "Nominee/Spouse/Dependent",
+      "Dues": "None",
+      "Worker": "Registered"
+    }
+  },
+  {
+    "scheme_name": "Tirth Barat Yojana",
+    "eligibility": {
+      "State": "Chhattisgarh",
+      "Category": "Senior Citizen or Disabled",
+      "Age_Senior": "60+ years",
+      "Age_Disabled": "18+ years",
+      "Taxpayer": "No",
+      "Previous_Trip": "No",
+      "Health": "No infectious diseases",
+      "Travel": "Group only",
+      "Accompaniment": "None",
+      "Expenses": "Standard facilities only",
+      "Prohibited_Items": "Inflammable, intoxicating substances, jewelry",
+      "Behavior": "Dignified"
+    }
+  },
+  {
+    "scheme_name": "Artificial Limbs and Assistive Devices Supply Scheme",
+    "eligibility": {
+      "Residence": "Chhattisgarh",
+      "Disability": "Yes",
+      "Disability_Percent": "40%+",
+      "Certificate": "Disability/UDID",
+      "Family_Status": "BPL or recommended",
+      "Income_Limit": "₹8,000"
+    }
+  },
+  {
+    "scheme_name": "The NSFDC Internship Scheme",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Institution": "Recognized",
+      "Laptop": "Required",
+      "Frequency": "Once",
+      "Course": "UG/PG"
+    }
+  },
+  {
+    "scheme_name": "Marriage Gift Scheme - Telangana",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "Mahila Samridhi Yojana (Maharashtra)",
+    "eligibility": {
+      "Gender": "Female",
+      "Community": "Charmakar",
+      "Age": "18-50 years",
+      "Residence": "Maharashtra",
+      "Business_Knowledge": "Required",
+      "Income_Limit_50%_Subsidy": "Below Poverty Line",
+      "Income_Limit_NSFDC_Rural": "₹98,000",
+      "Income_Limit_NSFDC_Urban": "₹1,20,000"
+    }
+  },
+  {
+    "scheme_name": "Vocational Training to the Dependents",
+    "eligibility": {
+      "Applicant": "Dependent",
+      "Relation": "Spouse/Child",
+      "Worker": "Registered",
+      "Board": "A.P. Building"
+    }
+  },
+  {
+    "scheme_name": "Pre-Matric Scholarship Scheme",
+    "eligibility": {
+      "Status": "Student",
+      "Residence": "Tamil Nadu",
+      "Category": "BC/MBC/DNC",
+      "Income_Limit": "₹1,00,000",
+      "Education_Limit": "No graduate in family",
+      "Standard": "11th/12th",
+      "Medium": "English"
+    }
+  },
+  {
+    "scheme_name": "Schooling Education (JKBOCWWB)",
+    "eligibility": {
+      "Residence": "Jammu & Kashmir",
+      "Occupation": "Building/Construction Worker",
+      "Age": "18-60 years",
+      "Experience": "90 days in 12 months",
+      "Registration": "Annual renewal",
+      "Parent_Membership": "Active JKBOCWWB member",
+      "Child_Class": "Nursery to 8th"
+    }
+  },
+  {
+    "scheme_name": "Shop Construction/Shop Operation Scheme For Rehabilitation Of PwDs",
+    "eligibility": {
+      "Disability": "40%+",
+      "Nationality": "Uttar Pradesh",
+      "Age": "18-60",
+      "Criminal_Record": "No",
+      "Land_Ownership": "110 sq. ft.",
+      "Lease_Tenure": "5 years",
+      "Income_Limit": "Twice poverty line"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance To Destitute Children Scheme",
+    "eligibility": {
+      "Domicile": "Haryana",
+      "Age": "21",
+      "Income_Limit": "₹2 lakh",
+      "Reasons": [
+        "Death",
+        "Absence",
+        "Imprisonment",
+        "Incapacity"
+      ]
+    }
+  },
+  {
+    "scheme_name": "Surgical Grant For The Prevention Of Disability",
+    "eligibility": {
+      "Nationality": "Indian"
+    }
+  },
+  {
+    "scheme_name": "Subsidy Scheme On Establishment Of - 25 Kadaknath/R.I.R. Birds Unit To Scheduled Tribes",
+    "eligibility": {
+      "Nationality": "Indian",
+      "State": "Gujarat",
+      "Caste": "Scheduled Tribe",
+      "Age": "Adult",
+      "Priority": "Females, BPL",
+      "Training": "Poultry-keeping",
+      "Documents": "Income proof, Caste certificate"
+    }
+  },
+  {
+    "scheme_name": "Marriage Incentive Reward Scheme",
+    "eligibility": {
+      "Disability": "40%+ certificate",
+      "Residency": "UP domicile",
+      "Criminal_Record": "No conviction",
+      "Girl_Age": "18-45 years",
+      "Man_Age": "21-45 years",
+      "Taxpayer": "No",
+      "Marriage": "Registered"
+    }
+  },
+  {
+    "scheme_name": "Mai Bhago Vidya Scheme",
+    "eligibility": {
+      "Residence": "Punjab",
+      "Gender": "Female",
+      "Standard": "9th-12th",
+      "School": "Government",
+      "Economic": "BPL"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance To Non-School Going Disabled Children Scheme",
+    "eligibility": {
+      "Age": "0-18 years",
+      "Disability": "Physical",
+      "Domicile": "Haryana",
+      "Residence": "3 years",
+      "Medical_Certificate": "Civil Surgeon",
+      "Eligible_Disabilities": [
+        "Mental Retardation",
+        "Cerebral Palsy",
+        "Autism",
+        "Multiple Disabilities",
+        "Orthopedic Disability"
+      ],
+      "Income_Limit": "Minimum Wages",
+      "Financial_Support": "Not from relatives/parents"
+    }
+  },
+  {
+    "scheme_name": "National Awards For Outstanding Services In The Field Of Prevention Of Alcoholism And Substance (Drug) Abuse: Best Educational Institution Doing Outstanding Work In Awareness Generation And Prevention Of Alcoholism And Substance (Drug) Abuse",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Recommendation": "Required",
+      "SelfNomination": "Not allowed",
+      "CoolingPeriod": "3 years",
+      "AuthorizedRecommenders": [
+        "Government",
+        "Apex Chambers",
+        "Past Awardees",
+        "Collector",
+        "Commissioner"
+      ],
+      "Experience": "5 years",
+      "Awareness": "Regular",
+      "Collaboration": "State Government",
+      "Motivation": "Youth",
+      "Support": "Addict families",
+      "Measures": "Proactive",
+      "Networking": "NGOs",
+      "Curriculum": "Alcohol and drugs",
+      "Visibility": "Media"
+    }
+  },
+  {
+    "scheme_name": "Incentive To Owners Of Artificial Insemination Born Female Calf Through Pure Breeding In Indigenous Cow",
+    "eligibility": {
+      "Residence": "Gujarat",
+      "Ownership": "AI born calf",
+      "Breed": "Indigenous",
+      "Age": "11 months",
+      "Frequency": "Once a year",
+      "Limit": "One calf"
+    }
+  },
+  {
+    "scheme_name": "Scheme For Subsidy On Interest For Establishment Of 1 To 20 Milch Animal Farm",
+    "eligibility": {
+      "Residency": "Gujarat",
+      "Family_Beneficiary": "One",
+      "Benefit": "All farmers",
+      "Loan": "Nationalized bank",
+      "Financial_Year": "2023-24"
+    }
+  },
+  {
+    "scheme_name": "National Award For Senior Citizens (vayoshreshtha Samman): Iconic Mother",
+    "eligibility": {
+      "Gender": "Female",
+      "Age": "60+ years",
+      "Children": "High Achievers",
+      "Values": "Good Ethics",
+      "Contribution": "Girl Child Empowerment",
+      "Recognition": "Wide Social",
+      "Nominators": "Government, FICCI, CII, ASSOCHAM, NCSrC"
+    }
+  },
+  {
+    "scheme_name": "National Award For Senior Citizens (Vayoshreshtha Samman): Lifetime Achievement",
+    "eligibility": {
+      "Objective": "Elderly upliftment",
+      "Achievement": "Outstanding",
+      "Programmes": "Pioneering",
+      "RoleModel": "Exemplary",
+      "Age": "70+ years",
+      "Nominators": "Government",
+      "PastRecipients": "Padma Awards",
+      "Members": "NCSrC",
+      "Institutions": "FICCI, CII, ASSOCHAM"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Rajiv Gandhi Swavlamban Rojgar Yojna",
+    "eligibility": {
+      "Eligible": "Dropouts",
+      "Profession": "Individual entrepreneur",
+      "Category": "Trade Professionals",
+      "Occupation": "Artisan",
+      "Education": "Technical institute",
+      "Investment": "Small-Scale Industrial",
+      "Location": "NCT Delhi"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Vocational Training For VJNT And SBC Candidates Studying In Government Industrial Training Institute",
+    "eligibility": {
+      "Category": "VJNT or SBC",
+      "Selector": "Principal and Asstt. Commissioner"
+    }
+  },
+  {
+    "scheme_name": "Devnarayan Pre-Matric Scholarship Scheme",
+    "eligibility": {
+      "State": "Rajasthan",
+      "Category": "OBC",
+      "Income_Limit": "₹2 lakh",
+      "Employment": "Leave without pay",
+      "Multiple_Benefits": "All children",
+      "Other_Scholarships": "None"
+    }
+  },
+  {
+    "scheme_name": "Persons With Disabilities Scheme In Colleges: Financial Assistance To Visually Challenged Teachers",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Employment": "College Teachers",
+      "Disability": "Visually Challenged",
+      "Institution": "UGC recognized"
+    }
+  },
+  {
+    "scheme_name": "Cash Award (APB&OCWWB)",
+    "eligibility": {
+      "Residence": "Arunachal Pradesh",
+      "Employment": "Construction works",
+      "Registration": "APB&OCWWB",
+      "Membership": "Active",
+      "Examination": "Class X and XII",
+      "Children": "One son, one daughter",
+      "Performance": "Highest marks in District"
+    }
+  },
+  {
+    "scheme_name": "Biotechnology Career Advancement And Re-orientation (BioCARe) Programme For Women Scientists",
+    "eligibility": {
+      "Employment": "Permanent",
+      "Mentor_Eligibility": "5 years service remaining",
+      "Mentor_Experience": "3 ongoing or 4 completed projects",
+      "Project_Initiative": "Applicant's initiative",
+      "Project_Requirement": "Laboratory space and resources",
+      "Institution_Type": "Government-supported or non-profit",
+      "Location": "India"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Chief Minister’s Free Cancer Chemotherapy Scheme",
+    "eligibility": {
+      "Eligibility": "State Govt Employees",
+      "Dependents": "Included"
+    }
+  },
+  {
+    "scheme_name": "Medical Assistance (APB&OCWWB)",
+    "eligibility": {
+      "Residence": "Arunachal Pradesh",
+      "Employment": "Construction",
+      "Registration": "APB&OCWWB",
+      "Membership": "Active",
+      "Condition": "Hospitalised or accident"
+    }
+  },
+  {
+    "scheme_name": "Exposure Visits To The Assam Legislative Assembly",
+    "eligibility": {
+      "Institutions": "Assam Schools/Colleges",
+      "Subjects": "Political Science/Economics",
+      "Selection": "Academic/Extracurricular",
+      "BatchSize": "50",
+      "Participation": "Voluntary"
+    }
+  },
+  {
+    "scheme_name": "Madilu Kit",
+    "eligibility": {
+      "Residence": "Rural",
+      "Willingness": "Skill development",
+      "Age": "No restriction",
+      "Gender": "Both",
+      "Interest": "Entrepreneurship"
+    }
+  },
+  {
+    "scheme_name": "Maintenance Allowance To Backward Class Students Under Training In Sainik Schools",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Residence": "Maharashtra",
+      "Caste": "VJNT/SBC",
+      "Class": "5th-12th",
+      "School": "Sainik School",
+      "Benefit": "Not availed"
+    }
+  },
+  {
+    "scheme_name": "Bihar Student Credit Card Scheme",
+    "eligibility": {
+      "Residence": "Bihar",
+      "Age": "25+ years",
+      "Education": "Class 12th pass",
+      "Institute": "Authorized",
+      "Course": "Complete degree"
+    }
+  },
+  {
+    "scheme_name": "Widow Pension-West Bengal",
+    "eligibility": {
+      "Beneficiary": "Widow",
+      "Age": "60+ years",
+      "Nationality": "Indian",
+      "Residence": "West Bengal",
+      "Income_Limit": "₹1,000/month",
+      "Dependency": "No relative support",
+      "Residency_Duration": "10 years",
+      "Exclusion": "Beggars/Mendicants"
+    }
+  },
+  {
+    "scheme_name": "Government of Goa State Scholarship to NDA Cadets",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "KSCSTE Emeritus Scientist Scheme",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Kerala Biotechnology Re-Entry Fellowship",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Age_Limit": "45 years",
+      "Age_Relaxation": "OBC: 3 years, SC/ST/PH: 5 years",
+      "Degree": "Ph.D./M.D./equivalent",
+      "Experience": "3 years post-doctoral",
+      "Location": "Kerala",
+      "Institution": "Reputed"
+    }
+  },
+  {
+    "scheme_name": "Nirmaan Shramik Mrtyu Evan Divyaang Sahaayata Yojana",
+    "eligibility": {
+      "Cause": "Accidental",
+      "Exclusions": "Suicide, Crime, Violence, Riots"
+    }
+  },
+  {
+    "scheme_name": "Mukhyamantri Raut, Charavaaha Evan Doodh Duhane Vaale Saayakal Sahaayata Yojana",
+    "eligibility": {
+      "Sector": "Unorganized",
+      "Exclusion": "Parallel schemes"
+    }
+  },
+  {
+    "scheme_name": "KSCSTE Post-Doctoral Fellowship Programme",
+    "eligibility": {
+      "Centre": "Different from PhD centre",
+      "Location": "Kerala or premier national institutions",
+      "Institution": "Government",
+      "Department": "R&D or University"
+    }
+  },
+  {
+    "scheme_name": "D. D. Kosambi Research Fellowship Scheme",
+    "eligibility": {
+      "Education": "Post-graduation",
+      "Age_Junior": "Upto 35",
+      "Age_Senior": "Above 35",
+      "Age_PostDoc": "No bar",
+      "Award_Limit": "Once"
+    }
+  },
+  {
+    "scheme_name": "Yuva Srujan Puraskar (Navsarjan Chetana Puraskar)",
+    "eligibility": {
+      "Applicant": "Individual",
+      "Age": "25-40 years",
+      "Contribution": "Extraordinary",
+      "Experience": "5 years in Goa",
+      "Posthumous": "Not allowed"
+    }
+  },
+  {
+    "scheme_name": "Mukhmantri Sehat Bima Yojana",
+    "eligibility": {
+      "Residence": "Punjab",
+      "Categories": [
+        "SECC",
+        "Ration Card",
+        "J-Form",
+        "Traders",
+        "Farmers",
+        "Journalist",
+        "Construction Workers"
+      ]
+    }
+  },
+  {
+    "scheme_name": "Asangathit Karmakaar Silai Machine Sahayata Yojana",
+    "eligibility": {
+      "Gender": "Female",
+      "Age": "18-50",
+      "Occupation": "Construction, Sewing",
+      "Registration": "Labor board",
+      "Income_Source": "Self, Employer",
+      "Previous_Benefits": "None",
+      "Scheme_Exclusion": "CM Cycle Scheme"
+    }
+  },
+  {
+    "scheme_name": "Back-To-Lab Post-Doctoral Fellowship Programme",
+    "eligibility": {
+      "Gender": "Female",
+      "Residency": "Kerala",
+      "Employment": "Unemployed",
+      "Emoluments": "None",
+      "PreviousFellowship": "Not Availed",
+      "Age": "40 years",
+      "AgeRelaxation": "OBC: 3 years, SC/ST: 5 years",
+      "Qualification": "Ph.D.",
+      "PGMarks": "60% min",
+      "ResearchCentre": "Not same as PhD centre",
+      "InstitutionType": "Government/R&D",
+      "Location": "Kerala/Premier National Institutions",
+      "Publication": "At least 1 SCI Journal paper/Patent",
+      "PreviousPostDoc": "Not Availed"
+    }
+  },
+  {
+    "scheme_name": "National Food Security Mission NFSM",
+    "eligibility": {
+      "Eligibility": "All farmers",
+      "SC_Allocation": "16%",
+      "ST_Allocation": "8%",
+      "SmallFarmers": "33%",
+      "WomenFarmers": "30%",
+      "LandLimit": "5 hectares",
+      "DistrictSelection": "Yield below state average",
+      "MinArea": "50,000 ha",
+      "NorthEast": "5000 ha",
+      "HillStates": "15,000 ha",
+      "Pulses": "All districts",
+      "CoarseCereals": "70% of total area",
+      "NutriCereals": "All states",
+      "CFLD_Cluster": "25 ha",
+      "FLD_Cluster": "1 ha",
+      "Demo_Cluster": "100 ha"
+    }
+  },
+  {
+    "scheme_name": "Khel Chhatravriti (Vritika) Yojana",
+    "eligibility": {
+      "Residency": "Jharkhand",
+      "Profession": "Sportsperson",
+      "Selection": "Performance-based",
+      "Other_Scholarship": "Not allowed"
+    }
+  },
+  {
+    "scheme_name": "Salt Distribution Scheme Jharkhand",
+    "eligibility": {
+      "Residence": "Jharkhand",
+      "Card": "AAY/PHH/Green",
+      "Preference": "Economically Disadvantaged"
+    }
+  },
+  {
+    "scheme_name": "Excellent Work Award Scheme for Social Worker of De-Notified Communities",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "Banglar Awaas Yojana (BAY)",
+    "eligibility": {
+      "Nationality": "Indian",
+      "WaitingList": "PWL",
+      "Data_Basis": "SECC 2011",
+      "Household": "Houseless or Kutcha"
+    }
+  },
+  {
+    "scheme_name": "Haryana Post Matric Scholarship For Minority",
+    "eligibility": {
+      "Community": "Minority",
+      "Marks": "50%",
+      "Income": "₹2 lakh",
+      "Course": "Regular",
+      "Institution": "Government/Private",
+      "Other_Scholarship": "No",
+      "Priority": "BPL",
+      "Girl_Reservation": "30%"
+    }
+  },
+  {
+    "scheme_name": "Backward Classes Foreign Study Scholarship Scheme",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Marks": "60%",
+      "Course": "Research",
+      "Experience": "2 years",
+      "Age": "35 years",
+      "Relaxation": "10 years",
+      "Income_Limit": "Creamy layer"
+    }
+  },
+  {
+    "scheme_name": "West Bengal Transport Workers’ Social Security Scheme: Assistance on Death and Permanent Disablement",
+    "eligibility": {
+      "Age": "18-60",
+      "Nationality": "Not specified",
+      "Occupation": "Unorganized transport worker",
+      "VehicleUse": "Commercial"
+    }
+  },
+  {
+    "scheme_name": "Block Level Institute for Rural Skill Acquisition (BIRSA)",
+    "eligibility": {
+      "Residence": "Jharkhand",
+      "Age": "18-35 years",
+      "Reserved_Age": "Up to 50 years"
+    }
+  },
+  {
+    "scheme_name": "Makhana Vikas Yojana",
+    "eligibility": {
+      "Min_Land": "0.1 ha",
+      "Max_Land": "4 ha"
+    }
+  },
+  {
+    "scheme_name": "Mukhymantri Sarthi Yojana - Jharkhand",
+    "eligibility": {
+      "Residence": "Jharkhand",
+      "Age": "18-35 years",
+      "Priority": "SC/ST, women, PwD, transgender"
+    }
+  },
+  {
+    "scheme_name": "Eklavya Prashikshan Yojana - Coaching To Scheduled Tribe Student Studying In Class Xth, XIth & XIIth",
+    "eligibility": {
+      "Category": "ST",
+      "Student_Type": "Regular",
+      "School_Type": "Government/Recognised",
+      "Class": "Xth, XIth, XIIth",
+      "Reimbursement": "One-time"
+    }
+  },
+  {
+    "scheme_name": "Super 5000",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Parent_Occupation": "Laborer",
+      "State": "Madhya Pradesh",
+      "School_Type": "Government",
+      "Exam_Board": "MPBSE",
+      "Merit_Rank": "Top 5000",
+      "Age_Limit": "18-60 years"
+    }
+  },
+  {
+    "scheme_name": "INDIRAMMA Widow Pension (Rural)",
+    "eligibility": {
+      "Family": "BPL",
+      "Residence": "Andhra Pradesh",
+      "Area": "Rural",
+      "Pension": "Not Covered",
+      "Marital": "Widow"
+    }
+  },
+  {
+    "scheme_name": "Ved-Vyas Housing Construction Scheme",
+    "eligibility": {
+      "Occupation": "Fish Farmer",
+      "Housing": "Kutcha/Thatched",
+      "EconomicStatus": "Below Poverty Line",
+      "PreviousBenefit": "None",
+      "LandOwnership": "Required"
+    }
+  },
+  {
+    "scheme_name": "Issuance of Free House Sites",
+    "eligibility": {
+      "Residence": "Tamil Nadu",
+      "Caste": "BC/MBC/DNC",
+      "Ownership": "No house/site",
+      "Income_Rural": "₹40,000",
+      "Income_Urban": "₹60,000"
+    }
+  },
+  {
+    "scheme_name": "Pre Matric Scholarship Scheme (Saral Vidya Sahay) for SC and OBC (V to VIII)",
+    "eligibility": {
+      "Class": "V to VIII",
+      "Caste": "SC/OBC",
+      "Income": "₹1.2 lakh"
+    }
+  },
+  {
+    "scheme_name": "Scheme For Loan And Advances to the Beneficiary For Construction Of House",
+    "eligibility": {
+      "Category": "EWS"
+    }
+  },
+  {
+    "scheme_name": "Distribution of Sewing Machines at Free of Cost",
+    "eligibility": {
+      "Residence": "Tamil Nadu",
+      "Caste": "BC/MBC/DNC",
+      "Skill": "Tailoring",
+      "Income": {
+        "Rural": "₹40,000",
+        "Urban": "₹60,000"
+      },
+      "Age": "20-45"
+    }
+  },
+  {
+    "scheme_name": "Aawaas Sahayata",
+    "eligibility": {
+      "State": "Madhya Pradesh",
+      "Status": "Student",
+      "Education": "12th pass",
+      "Course": "Graduate/Diploma",
+      "Admission": "Regular",
+      "Hostel": "Not Government",
+      "Category": "Tribal"
+    }
+  },
+  {
+    "scheme_name": "State Disability Pension",
+    "eligibility": {
+      "Residence": "Mizoram",
+      "Disability": "Blind or Bedridden",
+      "Family": "BPL"
+    }
+  },
+  {
+    "scheme_name": "Pension Scheme to Widow",
+    "eligibility": {
+      "Income": "₹5 lakh"
+    }
+  },
+  {
+    "scheme_name": "INDIRAMMA Old Age Pension (Urban)",
+    "eligibility": {
+      "Family": "BPL",
+      "Area": "Urban",
+      "Residence": "Andhra Pradesh",
+      "Pension": "None",
+      "Age": "65+",
+      "Status": "Destitute"
+    }
+  },
+  {
+    "scheme_name": "Walk In Tunnel",
+    "eligibility": {
+      "Nationality": "Rajasthani",
+      "Occupation": "Farmer",
+      "Land": "Agricultural"
+    }
+  },
+  {
+    "scheme_name": "Scholarship/Stipend to SC Students for ITI/Professional Courses (Swami Vivekanand Scholarship)",
+    "eligibility": {
+      "Caste": "SC",
+      "State": "Gujarat",
+      "Institution": "Government/Private ITI",
+      "Income_Limit": "₹6 lakh"
+    }
+  },
+  {
+    "scheme_name": "Death Benefit (GBOCWWB)",
+    "eligibility": {
+      "Status": "Worker",
+      "Age": "18-60 years",
+      "Service": "90 days",
+      "Registration": "GBOCWWB",
+      "Applicant": "Nominee/Dependant",
+      "DeathCause": "Natural/Accident",
+      "Unregistered": "Certificate required"
+    }
+  },
+  {
+    "scheme_name": "Loan Assistance to Scheduled Castes Students for Commercial Pilot Training",
+    "eligibility": {
+      "State": "Gujarat",
+      "Category": "Scheduled Caste",
+      "Qualification": "Matriculation",
+      "Institution": "Approved",
+      "License": "Valid",
+      "Admission": "Consent letter",
+      "Sponsor": "No relative",
+      "Repayment": "Flexible",
+      "Misuse": "Penal interest",
+      "Sureties": "Two valid"
+    }
+  },
+  {
+    "scheme_name": "Go-Green Three Wheelers Scheme (GBOCWWB)",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "Meghalaya Agriculture Response Vehicle Scheme",
+    "eligibility": {
+      "Residency": "Meghalaya",
+      "Age": "18-58 years",
+      "License": "Commercial",
+      "ID_Proof": "Valid government ID",
+      "Defaulter": "No",
+      "Entity": "Individual/Farmer Association",
+      "Registration": "Incorporation/Registration Certificate"
+    }
+  },
+  {
+    "scheme_name": "Indira Mahila Shakti Prashikshan Evam Kaushal Sanvardhan Yojna -RS-CIT",
+    "eligibility": {
+      "Nationality": "Rajasthani",
+      "Gender": "Female",
+      "Age": "16-40 years",
+      "Priority": "Widow/Divorced/Abandoned",
+      "Education": "10th pass and Graduate",
+      "Anganwadi": "Graduate"
+    }
+  },
+  {
+    "scheme_name": "Funeral Assistance Scheme (PULWS)",
+    "eligibility": {
+      "Applicant": "Nominee",
+      "Residence": "Puducherry",
+      "Occupation": "Unorganized Worker",
+      "Enrollment": "PULWS",
+      "Age": "18-59 years",
+      "Subscription": "₹100/- annually",
+      "Registration_Fee": "₹25/-"
+    }
+  },
+  {
+    "scheme_name": "Intensive Castration Scheme",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance to SC Students for Pursuing Higher Studies Abroad",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Domicile": "Delhi",
+      "Residency": "5 years",
+      "Child_Status": "Only child",
+      "Employment": "NOC required",
+      "Education_Level": "Not completed",
+      "PhD_Marks": "55%",
+      "Masters_Marks": "55%",
+      "Age_Limit": "30 years",
+      "Income_Limit": "₹8,00,000"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {
+      "Gender": "Female"
+    }
+  },
+  {
+    "scheme_name": "BC & EBC Girls Residential +2 High School",
+    "eligibility": {
+      "Selection": "Entrance exam",
+      "Class": "VI to IX"
+    }
+  },
+  {
+    "scheme_name": "Establishment of 1 to 20 Milch Animal Farm",
+    "eligibility": {
+      "Occupation": "Livestock Farmer",
+      "Loan": "Bank Loan",
+      "Facilities": "Land, Livestock, Water",
+      "Species": "Cows, Buffaloes",
+      "Beneficiaries": "SC, ST, Others"
+    }
+  },
+  {
+    "scheme_name": "Kisan Parivahan Yojana",
+    "eligibility": {
+      "Occupation": "Farmer",
+      "State": "Gujarat",
+      "Vehicle": "Medium-sized",
+      "Capacity": "600kg-1500kg",
+      "Dealer": "Authorized"
+    }
+  },
+  {
+    "scheme_name": "Post Matric Scholarship for SC students (Delhi)",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Course": "Post-matric",
+      "Location": "India"
+    }
+  },
+  {
+    "scheme_name": "Union Territory of Lakshadweep Pension Scheme for Widows",
+    "eligibility": {
+      "Residency": "Lakshadweep",
+      "Marital": "Widow",
+      "Remarried": "No",
+      "Income": "₹18,000/- per annum",
+      "Other_Schemes": "No"
+    }
+  },
+  {
+    "scheme_name": "The Goa State Photo Contest And Exhibition Scheme",
+    "eligibility": {
+      "Residence": "Goa",
+      "Duration": "15 years",
+      "Preference": "Born in Goa"
+    }
+  },
+  {
+    "scheme_name": "The Goa State Journalist Awards Scheme",
+    "eligibility": {
+      "Nationality": "Indian",
+      "Employment": "Registered media",
+      "Language": "English, Konkani, Marathi",
+      "Sponsor": "Editor",
+      "Timeframe": "Previous year",
+      "Sector": "Private or registered"
+    }
+  },
+  {
+    "scheme_name": "Old Age Pension To Handloom Weavers Under Coop. Fold",
+    "eligibility": {
+      "Residence": "West Bengal",
+      "Age": "60+ years",
+      "Membership": "Handloom coop. society",
+      "Experience": "10+ years",
+      "Income": "No source",
+      "Employability": "Permanently incapacitated",
+      "Relatives": "No maintainers",
+      "Pension": "Not availed",
+      "Relaxation": "Undue hardship"
+    }
+  },
+  {
+    "scheme_name": "Assistance of Concentrate Feed for Pregnant Animals (General Category)",
+    "eligibility": {
+      "Owner": "Livestock",
+      "Category": "General",
+      "Pregnancy": "Last Trimester"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {
+      "Residence": "Bihar",
+      "Status": "Student",
+      "Category": "BC-I",
+      "Qualification": "10th pass"
+    }
+  },
+  {
+    "scheme_name": "Patrakar Kritadnyata Nidhi Scheme (Journalist Benevolent Fund)",
+    "eligibility": {
+      "Profession": "Journalist",
+      "Birthplace": "Goa",
+      "Work_Experience": "3 years",
+      "Registration": "Department of Information and Publicity",
+      "Renewal": "June 30th",
+      "Exclusivity": "No other profession"
+    }
+  },
+  {
+    "scheme_name": "Merit Scholarship: Polytechnic Institutions",
+    "eligibility": {
+      "Residence": "Chhattisgarh",
+      "Institution": "Recognized polytechnic",
+      "Marks": "60%",
+      "Location": "Chhattisgarh",
+      "Employment": "Not full-time",
+      "Scholarship_Limit": "One at a time"
+    }
+  },
+  {
+    "scheme_name": "Subsidy to Purchase E-Bike for Journalists",
+    "eligibility": {
+      "Profession": "Journalist",
+      "Livelihood": "Journalistic activities",
+      "Residence": "Goa",
+      "Residence_Duration": "15 years",
+      "Employer": "Media organisation",
+      "Age_Limit": "58 years",
+      "Previous_Benefit": "None"
+    }
+  },
+  {
+    "scheme_name": "Rajya Pratibha Khoj Pariksha Chhatravriti Yojana",
+    "eligibility": {
+      "School": "Rajasthan school",
+      "Class12_Marks": "50% in Class 11"
+    }
+  },
+  {
+    "scheme_name": "Ambedkar International Scholarship - SC",
+    "eligibility": {
+      "Nationality": "Not specified",
+      "Other_Scholarship": "Not allowed"
+    }
+  },
+  {
+    "scheme_name": "Additional Financial Assistance for the Children of Persons Engaged in the Cleaning Profession",
+    "eligibility": {
+      "Status": "Student",
+      "Scholarship": "Post-Matric",
+      "Category": "SC/ST/OBC/EBC",
+      "Parent_Occupation": "Cleaning",
+      "Parent_Category": "Scavenger"
+    }
+  },
+  {
+    "scheme_name": "Marriage Assistance Scheme (MPBOCWWB)",
+    "eligibility": {
+      "Residence": "Madhya Pradesh",
+      "Occupation": "Construction Worker",
+      "Age": "18-60 years",
+      "Work_Days": "90 days",
+      "Registration": "Renewed annually",
+      "Applicant": "Registered female worker/daughter",
+      "Scheme_Participation": "Chief Minister Kanya Vivaah/Nikah Scheme",
+      "Bride_Age": "At least 18 years",
+      "Previous_Assistance": "None"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Deen Dayal Upadhyaya Antyodaya Parivar Suraksha Yojana (DAYALU-II)",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Applicant": "Beneficiary/Relative",
+      "ID": "Family ID/PPP",
+      "Cause": "Stray animal bite",
+      "Disability": "70% or above",
+      "Timeframe": "3 months",
+      "Effective_Date": "24th May 2023",
+      "Assistance_Cases": "Death/Permanent Disability",
+      "Payment_Conditions": "Head of Family/Elder Member",
+      "Recovery_Rate": "12% per annum"
+    }
+  },
+  {
+    "scheme_name": "Transgender Utthan Kosh - College/Higher/Technical Educational Fees Refund for Transgender Students",
+    "eligibility": {
+      "Residence": "Rajasthan",
+      "Community": "Transgender",
+      "Course": "Higher/Technical",
+      "Institution": "Recognized",
+      "Income_Limit": "₹8 lakh"
+    }
+  },
+  {
+    "scheme_name": "Diesel VAT Relief Scheme for Fishermen",
+    "eligibility": {
+      "Status": "Registered",
+      "BoatType": "Mechanized",
+      "LengthLimit": "20m"
+    }
+  },
+  {
+    "scheme_name": "Bhavantar Bharpai Yojana",
+    "eligibility": {
+      "Residence": "Haryana",
+      "Occupation": "Farmer",
+      "Crops": "21 listed"
+    }
+  },
+  {
+    "scheme_name": "Scheme to Provide Financial Assistance to Farmers for Purchasing Sanedo Agricultural Equipment",
+    "eligibility": {
+      "Occupation": "Farmer",
+      "Residence": "Gujarat"
+    }
+  },
+  {
+    "scheme_name": "Free Supply of Text Books",
+    "eligibility": {
+      "Residence": "Delhi",
+      "Student_Level": "Nursery-Class 12th",
+      "School_Type": "Government/Aided",
+      "Attendance": "Regular"
+    }
+  },
+  {
+    "scheme_name": "Scheme for Assistance on Purchase of Smartphone by the Farmers",
+    "eligibility": {
+      "Occupation": "Farmer",
+      "Land_Ownership": "Yes",
+      "State": "Gujarat",
+      "Multiple_Accounts": "One-time assistance",
+      "Joint_Account": "One tenant"
+    }
+  },
+  {
+    "scheme_name": "Scholarship for Children of Ex-Servicemen for Vocational and Technical Education",
+    "eligibility": {
+      "State": "Rajasthan",
+      "Rank": "Havildar or below",
+      "Course": "Vocational/Technical",
+      "Scheme": "PMSS",
+      "Duplicate_Benefit": "Not allowed",
+      "Casualty_Exception": "Battle/Disability",
+      "Academic_Progress": "Previous year passed",
+      "Child_Limit": "Two",
+      "Renewal": "Annual",
+      "Failure_Consequence": "Cancellation"
+    }
+  },
+  {
+    "scheme_name": "Transgender Utthan Kosh - Self Employment Programme for Transgender",
+    "eligibility": {
+      "Benefit": "Once"
+    }
+  },
+  {
+    "scheme_name": "Financial Assistance for Self-Marriage of Registered Women Workers (HBOCWWB)",
+    "eligibility": {
+      "Gender": "Female",
+      "Occupation": "Construction",
+      "Registration": "Mandatory",
+      "Membership": "1 year",
+      "Status": "Active",
+      "Undertaking": "No duplicate aid"
+    }
+  },
+  {
+    "scheme_name": "Natural Death and Funeral Assistance",
+    "eligibility": {
+      "Applicant": "Nominee",
+      "Death_Type": "Natural",
+      "Artist_Type": "Registered"
+    }
+  },
+  {
+    "scheme_name": "Multimedia Training - Tamil Nadu",
+    "eligibility": {
+      "Disability": "Hearing Impaired, Locomotor",
+      "Education": "8th Pass"
+    }
+  },
+  {
+    "scheme_name": "Early Intervention Centre for Children with Cerebral Palsy in SRTC, Chennai and Tiruchirapalli Districts",
+    "eligibility": {
+      "Condition": "Cerebral Palsy",
+      "Age": "6 years or below"
+    }
+  },
+  {
+    "scheme_name": "Scholarship (I to VIII Standard) by Welfare of Differently Abled Persons",
+    "eligibility": {
+      "Status": "Student",
+      "Category": "Differently Abled",
+      "Standard": "I to VIII",
+      "School": "Government Recognized",
+      "Assistance": "No Other"
+    }
+  },
+  {
+    "scheme_name": "Mukhya Mantri Mahila Nirman Shramik Sammaan Yojana (HBOCWWB)",
+    "eligibility": {
+      "Gender": "Female",
+      "Occupation": "Construction worker",
+      "Registration": "HBOCWWB",
+      "Membership": "1 year",
+      "Renewal": "Annual"
+    }
+  },
+  {
+    "scheme_name": "Early Intervention Centres for Children with Autism",
+    "eligibility": {
+      "Age": "0-6 years",
+      "Condition": "Autism"
+    }
+  },
+  {
+    "scheme_name": "Sewing Machine Scheme- Haryana Labour Welfare Board",
+    "eligibility": {
+      "ServicePeriod": "2 years",
+      "Gender": "Woman"
+    }
+  },
+  {
+    "scheme_name": "Disability (Due to Accident or Other Reason) Scheme- Haryana Labour Welfare Board",
+    "eligibility": {
+      "ServicePeriod": "Not Fixed"
+    }
+  },
+  {
+    "scheme_name": "Kanyadaan Scheme (HBOCWWB)",
+    "eligibility": {
+      "Registration": "HBOCWWB",
+      "Membership": "1 year",
+      "Work_Days": "90 days",
+      "Contributions": "Up-to-date",
+      "Daughters": "3",
+      "Deadline": "1 year",
+      "Exclusivity": "No other aid"
+    }
+  },
+  {
+    "scheme_name": "Scheme on Promotion of Use of Liquid Fermented Organic Manure (LFOM) for Increasing Organic Carbon in Soil",
+    "eligibility": {
+      "Occupation": "Farmer",
+      "Residence": "Gujarat",
+      "Activity": "Agriculture",
+      "Adoption": "LFOM/FOM"
+    }
+  },
+  {
+    "scheme_name": "Operation of Sports Hostels",
+    "eligibility": {
+      "Residence": "Rajasthan",
+      "Caste": "ST",
+      "Class": "6th-12th",
+      "Health": "No disability",
+      "Parents": "Non-taxpayers",
+      "Academics": "Not failed"
+    }
+  },
+  {
+    "scheme_name": "Scheme for the Award of Scholarship for the Under Graduate Meritorious Students of Various Faculties of Junagadh Agricultural University",
+    "eligibility": {
+      "University": "Junagadh Agricultural",
+      "Course": "Undergraduate",
+      "Faculty": "Any",
+      "Marks": "45% in HSC Science"
+    }
+  },
+  {
+    "scheme_name": "Rajasthan Varishth Patrakar Samman Yojana",
+    "eligibility": {
+      "Parsed": "Error or invalid JSON from LLM"
+    }
+  },
+  {
+    "scheme_name": "Indira Gandhi National Disability Pension Scheme (Punjab)",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Bhajan Pakhawaj Workshops",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Laado Protsahan Yojana",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Scheme to Provide Electric Scooter to Disabled Person",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Sindhu Darshan Scheme",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Assistance for Purchase of Spectacles - Folk Artists",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Bharati Scheme for Education - 1st Class to 5th Class",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {}
+  },
+  {
+    "scheme_name": "Buffalo Entrepreneurship Development Scheme",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Additional Pension to 100% Disabled Ex-Serviceman having Children",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Additional Pension to Widow of Ex-Serviceman having Children",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Agricultural Activities for Persons with Disabilities",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Quick Links",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Mukhya Mantri Agricultural Mechanization Scheme",
+    "eligibility": {
+      "Occupation": "Farmer",
+      "Residence": "Gujarat"
+    }
+  },
+  {
+    "scheme_name": "Construction of Water Storage Tanks for Drip Irrigation",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Uttarakhand State Shilp Ratna Award",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Travel Grants To Goan Authors",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Employees' Pension Scheme",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Indira Mahila Shakti Udyam Protsahan Yojana",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "PMMSY: Establishment of New Freshwater Fin Fish Hatcheries-Haryana",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "Varanasi and Amritsar Yatra Scheme",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  },
+  {
+    "scheme_name": "State Art Exhibition Competition",
+    "eligibility": {
+      "Error": "LLM processing failed"
+    }
+  }
+]

@@ -90,3 +90,56 @@ def get_top_schemes_from_query(query, top_k=30, search_k=500):
         if len(top_schemes) >= top_k:
             break
     return top_schemes
+def filter_eligible_schemes(client_profile, schemes, eligibility_data, llm_choice="gemini"):
+    filtered, reasoning_results = [], {}
+    llm = get_llm_instance(llm_choice)
+
+    profile_text = (
+        f"{client_profile.get('name', 'User')} is a {client_profile.get('age', '')}-year-old "
+        f"{client_profile.get('gender', '')} {client_profile.get('nationality', '')} citizen. "
+        f"They belong to the {client_profile.get('caste', 'General')} category. "
+        f"They are working as a {client_profile.get('occupation', '')} "
+        f"and pursuing {client_profile.get('education', '')}. "
+        f"Their annual income is {client_profile.get('income', 0)} rupees. "
+        f"Aadhaar linked: {client_profile.get('aadhaar_linked', False)}."
+    ).strip()
+
+    for scheme in schemes:
+        criteria = eligibility_data.get(scheme)
+        if not criteria:
+            continue
+        eligibility_text = ". ".join([f"{k}: {v}" for k, v in criteria.items()])
+
+        prompt = f"""
+        You are an intelligent government scheme eligibility evaluator.
+        Evaluate whether this person is eligible for the scheme based on reasoning.
+        Base your judgment strictly on the scheme’s eligibility criteria — don't assume missing data.
+        Consider caste, age, income, gender, occupation, and education.
+        Respond with a short logical explanation and end with "Eligible: Yes" or "Eligible: No".
+
+        Person Profile:
+        {profile_text}
+
+        Scheme Eligibility Requirements:
+        {eligibility_text}
+
+        Answer:
+        """
+
+        try:
+            response = llm.invoke(prompt)
+            reasoning_text = response.content.strip()
+        except Exception as e:
+            reasoning_text = f"Error during reasoning: {e}"
+
+        if "eligible: yes" in reasoning_text.lower():
+            filtered.append(scheme)
+        reasoning_results[scheme] = {"reasoning": reasoning_text}
+
+    return filtered, reasoning_results
+
+# ===============================================
+# STREAMLIT UI
+# ===============================================
+st.title("Intelligent Government Scheme Assistant")
+st.write("Find which government schemes you're eligible for — using RAG + LLM reasoning.")

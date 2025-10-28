@@ -143,3 +143,55 @@ def filter_eligible_schemes(client_profile, schemes, eligibility_data, llm_choic
 # ===============================================
 st.title("Intelligent Government Scheme Assistant")
 st.write("Find which government schemes you're eligible for — using RAG + LLM reasoning.")
+
+with st.sidebar:
+    st.header("🧍‍♂️ Enter Your Details")
+    name = st.text_input("Name", "Ravi")
+    age = st.number_input("Age", 18, 100, 22)
+    gender = st.selectbox("Gender", ["male", "female", "other"])
+    caste = st.text_input("Caste", "OBC")
+    nationality = st.text_input("Nationality", "Indian")
+    education = st.text_input("Education", "B.Sc. Agriculture")
+    occupation = st.text_input("Occupation", "Farmer")
+    income = st.number_input("Annual Income (₹)", 0, 1000000, 100000)
+    aadhaar_linked = st.checkbox("Aadhaar Linked", True)
+    llm_choice = st.selectbox("Select LLM", ["gemini", "grok"])
+
+st.markdown("---")
+
+query = st.text_area("💬 Describe your need or situation:", "I need help for agriculture as I am a small farmer with family income 1,00,000.")
+
+if st.button("🔍 Find Eligible Schemes"):
+    with st.spinner("Analyzing and reasoning eligibility..."):
+        client_profile = {
+            "name": name,
+            "age": age,
+            "gender": gender,
+            "caste": caste,
+            "nationality": nationality,
+            "education": education,
+            "occupation": occupation,
+            "income": income,
+            "aadhaar_linked": aadhaar_linked
+        }
+
+        top_schemes = get_top_schemes_from_query(query)
+        eligible_schemes, reasoning = filter_eligible_schemes(client_profile, top_schemes, eligibility_data, llm_choice)
+
+    if eligible_schemes:
+        st.success(f"✅ Found {len(eligible_schemes)} eligible scheme(s)!")
+        for scheme in eligible_schemes:
+            st.subheader(f"📘 {scheme}")
+            st.markdown(f"**Reasoning:** {reasoning[scheme]['reasoning']}")
+
+            with st.expander("📄 Scheme Summary"):
+                context = retrieve_context(f"Summary of {scheme} scheme")
+                llm = get_llm_instance(llm_choice)
+                prompt = f"Summarize the {scheme} scheme in simple language:\n\n{context}"
+                try:
+                    resp = llm.invoke(prompt)
+                    st.write(resp.content)
+                except Exception as e:
+                    st.error(f"Error summarizing {scheme}: {e}")
+    else:
+        st.warning("No schemes match your eligibility and query.")

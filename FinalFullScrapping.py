@@ -15,6 +15,40 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
 
+import time
+from datetime import datetime
+
+def run_weekly_scraper(scraper, max_pages=None, max_schemes=None):
+    """
+    Runs the UnifiedSchemeScraper once every week in a continuous loop.
+    scraper = instance of UnifiedSchemeScraper()
+    """
+
+    WEEK_SECONDS = 7 * 24 * 60 * 60  # 604800 seconds
+
+    print("==============================================")
+    print("📅 WEEKLY SCRAPER STARTED")
+    print("It will run automatically every 7 days.")
+    print("==============================================\n")
+
+    while True:
+        start_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        print(f"\n🚀 Running scraper at: {start_time}")
+        print("----------------------------------------------------")
+
+        try:
+            scraper.run_complete_scrape(
+                max_pages=max_pages,
+                max_schemes=max_schemes
+            )
+            print("\n✅ Weekly scrape completed successfully!")
+
+        except Exception as e:
+            print(f"\n❌ Error during weekly scraping: {e}")
+
+        print("\n⏳ Sleeping for 7 days...\n")
+        time.sleep(WEEK_SECONDS)  # Wait a full week
+
 class UnifiedSchemeScraper:
     def __init__(self):
         self.base_url = "https://www.myscheme.gov.in"
@@ -583,7 +617,7 @@ class UnifiedSchemeScraper:
 
 if __name__ == "__main__":
     scraper = UnifiedSchemeScraper()
-    
+    run_weekly_scraper(scraper, max_pages=10, max_schemes=50)
     # Configuration
     MAX_PAGES = None  # Set to None for all pages, or a number like 5 for testing
     MAX_SCHEMES = None  # Set to None for all schemes, or a number like 10 for testing
@@ -593,4 +627,4 @@ if __name__ == "__main__":
         max_pages=MAX_PAGES,
         max_schemes=MAX_SCHEMES,
         save_intermediate=True
-    )
+    )   
